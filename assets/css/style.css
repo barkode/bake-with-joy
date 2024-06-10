@@ -5,6 +5,48 @@
   box-sizing: border-box;
 }
 
+/* General styles */
+
+/* ========== CSS style sheet variables ========== */
+
+:root {
+  /* Main site colors */
+  --main-bg-img: url();
+  --main-color-white: #faf4ea;
+  --main-color-dark: #31261a;
+  --main-color-green: #819b57;
+  /* Secondary site colors */
+  --second-color-white: #cfcfbc;
+  --second-color-dark: #a18268;
+  --second-color-green: #465929;
+  /* Font family */
+  --main-font-family: Poppins, sens-serif;
+  --second-font-family: Oswald, sens-serif;
+  /* Transition duration and function */
+  --trans-dur-and-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* Generic project styles */
+  color: var(--main-color-dark);
+  background-color: var(--main-color-white);
+}
+
 /* ===== Header ===== */
+header {
+  background-color: lightblue;
+}
 /* ===== Main ===== */
+main {
+  /* Make main element take up any surplus space to push footer down */
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: auto;
+}
 /* ===== Footer ===== */
+footer {
+  background-color: var(--second-color-dark);
+}
