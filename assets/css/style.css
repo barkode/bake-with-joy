@@ -116,8 +116,18 @@ main {
   margin-top: 48px;
 }
 /* ===== Footer ===== */
-footer {
-  background-color: var(--second-color-dark);
+#social-networks {
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+#social-networks i {
+  font-size: 160%;
+  padding: 5%;
+  color: var(--main-color-dark);
 }
 
 /* Media query: tablets and large (768px and up) */
