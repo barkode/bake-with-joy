@@ -142,6 +142,15 @@ main {
 }
 
 /* ===== Footer ===== */
+footer {
+  background-image: url('../images/footer-bg-image.webp');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 32px 0;
+}
+
 #social-networks {
   text-align: center;
   padding: 20px 0;
@@ -153,7 +162,8 @@ main {
 #social-networks i {
   font-size: 160%;
   padding: 5%;
-  color: var(--main-color-dark);
+  color: var(--second-color-white);
+  transition: color var(--trans-dur-and-func);
 }
 
 /* Media query: tablets and large (768px and up) */
@@ -189,17 +199,22 @@ main {
   }
   /* Hero */
   #cover-text {
-    width: 300px;
+    width: 305px;
     right: 50px;
   }
 }
 /* Media query: laptop and large (992px and up) */
 @media screen and (min-width: 992px) {
+  /* Header */
   #menu a {
     transition: color var(--trans-dur-and-func);
   }
 
   #menu a:hover {
+    color: var(--main-color-green);
+  }
+  /* Footer */
+  #social-networks i:hover {
     color: var(--main-color-green);
   }
 }
