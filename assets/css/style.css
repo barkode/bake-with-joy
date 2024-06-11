@@ -53,13 +53,14 @@ h3 {
 }
 
 /* ===== Header ===== */
+
 header {
-  width: 100%;
+  box-shadow: 0 2px 2px var(--main-color-dark);
   background-color: var(--second-color-white);
+  width: 100%;
   padding: 0 1rem;
   position: fixed;
   z-index: 99;
-  box-shadow: 0 2px 2px var(--main-color-dark);
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -85,7 +86,7 @@ header a {
 }
 
 /* Navbar with dropdown toggle */
-nav {
+#header-nav {
   position: absolute;
   background-color: var(--second-color-white);
   width: 100%;
@@ -97,7 +98,7 @@ nav {
 }
 
 /* Nav toggle */
-#nav-toggle:checked ~ nav {
+#nav-toggle:checked ~ #header-nav {
   display: block;
 }
 
@@ -151,24 +152,35 @@ footer {
   padding: 32px 0;
 }
 
-#social-networks {
-  text-align: center;
-  padding: 20px 0;
-  display: flex;
-  justify-content: space-evenly;
+footer a {
+  text-decoration: none;
+}
+
+footer ul {
   list-style-type: none;
 }
 
-#social-networks i {
+.footer-menu ul {
+}
+
+.social-networks {
+  text-align: center;
+  padding: 20px 0;
+  /* display: flex; */
+  /* justify-content: space-evenly; */
+  /* list-style-type: none; */
+}
+
+.social-networks i {
   font-size: 160%;
-  padding: 5%;
+  /* padding: 5%; */
   color: var(--second-color-white);
   transition: color var(--trans-dur-and-func);
 }
 
 /* Media query: tablets and large (768px and up) */
 @media screen and (min-width: 768px) {
-  nav {
+  #header-nav {
     display: block;
     position: relative;
     box-shadow: none;
@@ -202,6 +214,13 @@ footer {
     width: 305px;
     right: 50px;
   }
+  /* Footer content */
+  .footer-logo {
+    font-family: var(--second-font-family);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--main-color-white);
+  }
 }
 /* Media query: laptop and large (992px and up) */
 @media screen and (min-width: 992px) {
@@ -214,7 +233,11 @@ footer {
     color: var(--main-color-green);
   }
   /* Footer */
-  #social-networks i:hover {
+  .social-networks i:hover {
     color: var(--main-color-green);
   }
+}
+
+.container {
+  max-width: 1440px;
 }
