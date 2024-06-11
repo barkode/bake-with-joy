@@ -43,6 +43,15 @@ body {
   font-family: var(--main-font-family);
 }
 
+h1,
+h2,
+h3 {
+  font-family: var(--second-font-family);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--main-color-dark);
+}
+
 /* ===== Header ===== */
 header {
   width: 100%;
@@ -59,13 +68,6 @@ header {
 header a {
   text-decoration: none;
   color: inherit;
-}
-
-h1 {
-  font-family: var(--second-font-family);
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  color: var(--main-color-dark);
 }
 
 #menu {
@@ -114,18 +116,31 @@ main {
   flex-shrink: 0;
   flex-basis: auto;
   margin-top: 48px;
-
-  /* Hero section */
-  #hero {
-    height: 600px;
-    width: 100%;
-    /* background: url('../images/hero-image.jpg') no-repeat center center/cover; */
-    background-image: url(../images/hero-image.webp);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
 }
+/* Hero section */
+#hero {
+  height: 600px;
+  width: 100%;
+  /* background: url('../images/hero-image.jpg') no-repeat center center/cover; */
+  background-image: url(../images/hero-image.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#cover-text {
+  /* Try to change text colors */
+  background-color: #cfcfbcaa;
+  font-size: 130%;
+  position: absolute;
+  bottom: 30px;
+  width: 80%;
+  min-height: 200px;
+  padding-top: 40px;
+  padding-left: 10px;
+}
+
 /* ===== Footer ===== */
 #social-networks {
   text-align: center;
@@ -168,9 +183,14 @@ main {
     line-height: 75px;
     margin: 0 0.5rem;
   }
-
+  /* Main content */
   main {
-    margin-top: 78px;
+    margin-top: 77px;
+  }
+  /* Hero */
+  #cover-text {
+    width: 300px;
+    right: 50px;
   }
 }
 /* Media query: laptop and large (992px and up) */
