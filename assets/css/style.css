@@ -113,6 +113,7 @@ main {
   flex-grow: 1;
   flex-shrink: 0;
   flex-basis: auto;
+  margin-top: 48px;
 }
 /* ===== Footer ===== */
 footer {
