@@ -114,6 +114,17 @@ main {
   flex-shrink: 0;
   flex-basis: auto;
   margin-top: 48px;
+
+  /* Hero section */
+  #hero {
+    height: 600px;
+    width: 100%;
+    /* background: url('../images/hero-image.jpg') no-repeat center center/cover; */
+    background-image: url(../images/hero-image.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
 /* ===== Footer ===== */
 #social-networks {
