@@ -64,6 +64,21 @@ h1 {
   letter-spacing: 2px;
   color: var(--main-color-dark);
 }
+
+#menu {
+  font-size: 110%;
+  letter-spacing: 4px;
+  list-style-type: none;
+}
+
+#menu > li {
+  margin-bottom: 1em;
+}
+
+.active {
+  color: var(--main-color-green);
+}
+
 /* ===== Main ===== */
 main {
   /* Make main element take up any surplus space to push footer down */
