@@ -154,8 +154,11 @@ footer {
 }
 /* Media query: laptop and large (992px and up) */
 @media screen and (min-width: 992px) {
+  #menu a {
+    transition: color var(--trans-dur-and-func);
+  }
+
   #menu a:hover {
-    color: var(--second-color-green);
-    border-bottom: 1px solid var(--second-color-green);
+    color: var(--main-color-green);
   }
 }
