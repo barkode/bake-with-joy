@@ -47,6 +47,10 @@ body {
 header {
   background-color: lightblue;
 }
+
+h1 {
+  font-family: var(--second-font-family);
+}
 /* ===== Main ===== */
 main {
   /* Make main element take up any surplus space to push footer down */
