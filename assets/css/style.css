@@ -52,6 +52,14 @@ h3 {
   color: var(--main-color-dark);
 }
 
+ul {
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+}
+
 /* ===== Header ===== */
 
 header {
@@ -74,7 +82,7 @@ header a {
 #menu {
   font-size: 110%;
   letter-spacing: 4px;
-  list-style-type: none;
+  /* list-style-type: none; */
 }
 
 #menu > li {
@@ -156,9 +164,9 @@ footer a {
   text-decoration: none;
 }
 
-footer ul {
+/* footer ul {
   list-style-type: none;
-}
+} */
 
 .footer-menu ul {
 }
