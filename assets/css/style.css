@@ -163,6 +163,7 @@ footer {
   background-repeat: no-repeat;
   position: relative;
   padding: 32px 0;
+  color: var(--second-color-white);
 }
 
 .footer-social-net-menu {
