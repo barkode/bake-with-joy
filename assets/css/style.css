@@ -75,25 +75,29 @@ header {
   z-index: 99;
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
 }
 
-#menu {
+.logo {
+  width: 5rem;
+}
+
+.logo-link {
+  line-height: 0;
+}
+
+.menu {
   font-size: 110%;
   letter-spacing: 4px;
   /* list-style-type: none; */
 }
 
-#menu > li {
+.menu > li {
   margin-bottom: 1em;
 }
 
-.active {
-  color: var(--main-color-green);
-}
-
 /* Navbar with dropdown toggle */
-#header-nav {
+.header-nav {
   position: absolute;
   background-color: var(--second-color-white);
   width: 100%;
@@ -105,8 +109,10 @@ header {
 }
 
 /* Nav toggle */
-#nav-toggle:checked ~ #header-nav {
+#nav-toggle:checked ~ .header-nav {
   display: block;
+  height: 100vh;
+  overflow: hidden;
 }
 
 #nav-toggle {
@@ -123,7 +129,7 @@ main {
   flex-grow: 1;
   flex-shrink: 0;
   flex-basis: auto;
-  margin-top: 48px;
+  margin-top: 90px;
 }
 /* Hero section */
 #hero {
@@ -175,7 +181,7 @@ footer {
 
 /* Media query: tablets and large (768px and up) */
 @media screen and (min-width: 768px) {
-  #header-nav {
+  .header-nav {
     display: block;
     position: relative;
     box-shadow: none;
@@ -183,11 +189,11 @@ footer {
     padding-right: 1rem;
   }
 
-  #menu {
+  .menu {
     display: flex;
   }
 
-  #menu > li {
+  .menu > li {
     padding-left: 1rem;
   }
 
@@ -222,11 +228,11 @@ footer {
 /* Media query: laptop and large (992px and up) */
 @media screen and (min-width: 992px) {
   /* Header */
-  #menu a {
+  .menu a {
     transition: color var(--trans-dur-and-func);
   }
 
-  #menu a:hover {
+  .menu a:hover {
     color: var(--main-color-green);
   }
   /* Footer */
@@ -235,6 +241,12 @@ footer {
   }
 }
 
+/* ========== Service classes =========*/
+
 .container {
   max-width: 1440px;
+}
+
+.active {
+  color: var(--main-color-green);
 }
