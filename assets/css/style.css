@@ -87,6 +87,7 @@ header {
 }
 
 .header-nav-menu {
+  display: inline-block;
   font-size: 160%;
   letter-spacing: 4px;
   text-align: center;
@@ -244,12 +245,21 @@ footer {
 /* Media query: laptop and large (992px and up) */
 @media screen and (min-width: 992px) {
   /* Header */
-  .menu a {
-    transition: color var(--trans-dur-and-func);
+  .logo {
+    transition: scale var(--trans-dur-and-func);
   }
 
-  .menu a:hover {
+  .logo:hover {
+    scale: 1.5;
+  }
+
+  .header-nav-menu li {
+    transition: color var(--trans-dur-and-func), scale var(--trans-dur-and-func);
+  }
+
+  .header-nav-menu li:hover {
     color: var(--main-color-green);
+    scale: 0.8;
   }
 
   /* Footer */
