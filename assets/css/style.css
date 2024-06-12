@@ -166,6 +166,10 @@ footer {
   color: var(--second-color-white);
 }
 
+.footer-logo {
+  display: none;
+}
+
 .footer-social-net-menu {
   text-align: center;
   padding: 20px 0;
@@ -179,6 +183,8 @@ footer {
   color: var(--second-color-white);
   transition: color var(--trans-dur-and-func);
 }
+
+/* ========== RESPONSIVE ========= */
 
 /* Media query: tablets and large (768px and up) */
 @media screen and (min-width: 768px) {
@@ -250,4 +256,17 @@ footer {
 
 .active {
   color: var(--main-color-green);
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  margin: -1px;
+  clip-path: inset(50%);
+  clip: rect(0 0 0 0);
 }
