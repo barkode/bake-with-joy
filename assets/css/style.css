@@ -213,6 +213,15 @@ footer {
 
 /* *========== RESPONSIVE UI========= */
 
+/* *========== 576px and up ===========  */
+@media screen and (min-width: 576px) {
+  /* Gallery */
+  .photos {
+    column-count: 2;
+    column-gap: 0;
+  }
+}
+
 /* *========== 768px and up ========== */
 /* Media query: tablets and large (768px and up) */
 @media screen and (min-width: 768px) {
@@ -251,6 +260,10 @@ footer {
     width: 305px;
     right: 50px;
   }
+  /* Gallery */
+  .photos {
+    column-count: 3;
+  }
 }
 
 /* *========== 992px and up ========== */
@@ -287,6 +300,11 @@ footer {
   .footer-social-net-menu i:hover {
     color: var(--main-color-green);
     transition: color var(--trans-dur-and-func);
+  }
+
+  /* Gallery */
+  .photos {
+    column-count: 4;
   }
 }
 
