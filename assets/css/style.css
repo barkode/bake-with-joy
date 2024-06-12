@@ -1,4 +1,4 @@
-/* ========== Import Fonts ========== */
+/* *========== FONTS ========== */
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family= Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900 &family=Oswald:wght@200..700&display=swap');
 
@@ -12,9 +12,9 @@
   box-sizing: border-box;
 }
 
-/* General styles */
+/* *========== GENERAL STYLES */
 
-/* ========== CSS style sheet variables ========== */
+/* *========== CSS style sheet VARIABLES ========== */
 
 :root {
   /* Main site colors */
@@ -64,7 +64,7 @@ a {
   text-decoration: none;
   color: inherit;
 }
-/* ===== Header ===== */
+/* *========== HEADER ========== */
 
 header {
   box-shadow: 0 2px 2px var(--main-color-dark);
@@ -123,7 +123,7 @@ header {
   font-size: 2rem;
 }
 
-/* ===== Main ===== */
+/* *========== MAIN ========== */
 main {
   /* Make main element take up any surplus space to push footer down */
   flex-grow: 1;
@@ -132,7 +132,7 @@ main {
   margin-top: 90px;
 }
 /* Hero section */
-#hero {
+.hero {
   height: 600px;
   width: 100%;
   /* background: url('../images/hero-image.jpg') no-repeat center center/cover; */
@@ -143,7 +143,7 @@ main {
   position: relative;
 }
 
-#cover-text {
+.cover-text {
   /* Try to change text colors */
   background-color: #cfcfbcaa;
   font-size: 130%;
@@ -155,7 +155,7 @@ main {
   padding-left: 10px;
 }
 
-/* ===== Footer ===== */
+/* *========== FOOTER =========== */
 footer {
   background-image: url('../images/footer-bg-image.webp');
   background-position: center;
@@ -170,6 +170,22 @@ footer {
   display: none;
 }
 
+.footer-logo-nav-container,
+.footer-address-container {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.footer-address-list {
+  display: inline-block;
+  width: 250px;
+}
+
+.footer-logo-nav-container li:not(:last-child),
+.footer-address-container li:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
 .footer-social-net-menu {
   text-align: center;
   padding: 20px 0;
@@ -178,14 +194,13 @@ footer {
 }
 
 .footer-social-net-menu i {
-  font-size: 160%;
-  /* padding: 5%; */
+  font-size: 200%;
   color: var(--second-color-white);
-  transition: color var(--trans-dur-and-func);
 }
 
-/* ========== RESPONSIVE ========= */
+/* *========== RESPONSIVE UI========= */
 
+/* *========== 768px and up ========== */
 /* Media query: tablets and large (768px and up) */
 @media screen and (min-width: 768px) {
   .header-nav {
@@ -212,26 +227,16 @@ footer {
     font-size: 200%;
     line-height: 75px;
     margin: 0 0.5rem;
+  }
 
-    /* style from h1 */
-  }
-  /* Main content */
-  main {
-    margin-top: 77px;
-  }
   /* Hero */
-  #cover-text {
+  .cover-text {
     width: 305px;
     right: 50px;
   }
-  /* Footer content */
-  .footer-logo {
-    font-family: var(--second-font-family);
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: var(--main-color-white);
-  }
 }
+
+/* *========== 992px and up ========== */
 /* Media query: laptop and large (992px and up) */
 @media screen and (min-width: 992px) {
   /* Header */
@@ -242,13 +247,24 @@ footer {
   .menu a:hover {
     color: var(--main-color-green);
   }
+
   /* Footer */
-  .social-networks i:hover {
+
+  .footer-logo {
+    display: block;
+    font-family: var(--second-font-family);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--main-color-white);
+  }
+
+  .footer-social-net-menu i:hover {
     color: var(--main-color-green);
+    transition: color var(--trans-dur-and-func);
   }
 }
 
-/* ========== Service classes =========*/
+/* *========== SERVICE CLASSES =========*/
 
 .container {
   max-width: 1440px;
