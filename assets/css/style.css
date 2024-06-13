@@ -156,20 +156,26 @@ main {
   padding-left: 10px;
 }
 
-/* Team section */
+/* *=========== Traditions ========== */
+
+/* *========== Team section ========== */
 
 .team-section {
   text-align: center;
   margin-bottom: 1rem;
+  padding: 1rem 0;
 }
 
-.team-section {
-  padding: 2rem 0;
+.team-section > h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  text-align: center;
+  text-transform: capitalize;
 }
+
 .team-list {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   row-gap: 40px;
 }
@@ -184,6 +190,7 @@ main {
 
 .team-list-item h3 {
   margin-bottom: 8px;
+  text-transform: capitalize;
 }
 
 .team-list-item p {
@@ -311,9 +318,12 @@ footer {
   /* Team section */
 
   .team-list {
+    flex-direction: row;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 64px;
+    align-items: center;
+    justify-content: center;
   }
 
   /* Add flex basis to show two elements */
