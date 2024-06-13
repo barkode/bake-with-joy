@@ -162,6 +162,10 @@ main {
   padding: 1rem 0;
 }
 
+.tradition-section img {
+  display: none;
+}
+
 /* *========== Team section ========== */
 
 .team-section {
@@ -319,6 +323,21 @@ footer {
     width: 305px;
     right: 50px;
   }
+
+  /* Our Traditions */
+  .tradition-section img {
+    display: block;
+  }
+
+  .traditions-article {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .delivery-article {
+    display: flex;
+  }
+
   /* Team section */
 
   .team-list {
