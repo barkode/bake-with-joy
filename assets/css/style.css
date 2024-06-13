@@ -165,6 +165,18 @@ main {
 
 /* Team section */
 
+.team-section {
+  padding: 2rem 0;
+}
+.team-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  row-gap: 40px;
+}
+
 .team-list-item {
   background-color: inherit;
   text-align: center;
