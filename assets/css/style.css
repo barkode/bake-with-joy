@@ -168,7 +168,8 @@ footer {
   color: var(--second-color-white);
 }
 
-.footer-logo {
+/* !========== Deleted from footer */
+/* .footer-logo {
   display: none;
 }
 
@@ -176,21 +177,23 @@ footer {
 .footer-address-container {
   margin-bottom: 1rem;
   text-align: center;
-}
+} */
 
-.footer-address-list {
+/* .footer-address-list {
   display: inline-block;
   width: 250px;
-}
-
-.footer-logo-nav-container li:not(:last-child),
+} */
+/* .footer-logo-nav-container li:not(:last-child),
 .footer-address-container li:not(:last-child) {
   margin-bottom: 1rem;
-}
+} */
+/* !========== Deleted from footer */
+
+/* Footer social media links */
 
 .footer-social-net-menu {
   text-align: center;
-  padding: 20px 0;
+  /* padding: 20px 0; */
   display: flex;
   justify-content: space-evenly;
 }
