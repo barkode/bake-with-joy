@@ -126,6 +126,7 @@ header {
 }
 
 /* *========== MAIN ========== */
+
 main {
   /* Make main element take up any surplus space to push footer down */
   flex-grow: 1;
@@ -137,8 +138,11 @@ main {
 .hero {
   height: 600px;
   width: 100%;
-  /* background: url('../images/hero-image.jpg') no-repeat center center/cover; */
-  background-image: url(../images/hero-image.webp);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero-image.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -279,7 +283,7 @@ footer {
   }
 
   .logo:hover {
-    scale: 1.5;
+    scale: 1.1;
   }
 
   .header-nav-menu li {
