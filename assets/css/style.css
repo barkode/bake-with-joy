@@ -166,6 +166,11 @@ main {
 /* Team section */
 
 .team-section {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.team-section {
   padding: 2rem 0;
 }
 .team-list {
