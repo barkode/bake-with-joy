@@ -14,7 +14,7 @@
 
 :root {
   /* Main site colors */
-  --main-bg-img: url();
+  --main-bg-img: url(../images/hero-image.webp);
   --main-color-white: #faf4ea;
   --main-color-dark: #31261a;
   --main-color-green: #819b57;
@@ -29,7 +29,6 @@
 }
 
 body {
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   /* Generic project styles */
@@ -64,7 +63,6 @@ a {
 /* *========== HEADER ========== */
 
 header {
-  /* box-shadow: 0 2px 2px var(--main-color-dark); */
   background-color: var(--second-color-white);
   width: 100%;
   padding: 0 1rem;
@@ -139,7 +137,7 @@ main {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero-image.webp);
+    var(--main-bg-img);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -310,6 +308,20 @@ footer {
     width: 305px;
     right: 50px;
   }
+  /* Team section */
+
+  .team-list {
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 64px;
+  }
+
+  .team-list-item {
+    flex-basis: calc((100% - 38px) / 3);
+    padding: 0;
+    max-width: 264px;
+  }
+
   /* Gallery */
   .photos {
     column-count: 3;
