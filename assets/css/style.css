@@ -158,6 +158,10 @@ main {
 
 /* *=========== Traditions ========== */
 
+.tradition-section {
+  padding: 1rem 0;
+}
+
 /* *========== Team section ========== */
 
 .team-section {
