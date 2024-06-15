@@ -13,6 +13,9 @@
 /* *========== CSS style sheet VARIABLES ========== */
 
 :root {
+  /* Maximum width */
+  --max-width: 1600px;
+
   /* Main site colors */
   --main-bg-img: url(../images/hero-image.webp);
   --main-color-white: #faf4ea;
@@ -398,6 +401,10 @@ footer {
   }
 
   /* Gallery */
+  .gallery {
+    max-width: var(--max-width);
+  }
+
   .photos {
     column-count: 4;
   }
