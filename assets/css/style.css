@@ -342,10 +342,20 @@ footer {
 
   .traditions-article p {
     align-self: center;
+    text-align: left;
+    margin-bottom: 0;
+    margin-left: 2rem;
   }
 
   .delivery-article {
     display: flex;
+  }
+
+  .delivery-article p {
+    align-self: center;
+    text-align: left;
+    margin-bottom: 0;
+    margin-right: 2rem;
   }
 
   /* Team section */
