@@ -169,19 +169,23 @@ main {
 .traditions-section {
   padding-top: 2rem;
   padding-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
+  width: 100%;
+  max-width: 80vw;
 }
 
 .traditions-section > h2 {
   margin-bottom: 1rem;
 }
 
-.traditions-section p:not(:last-child) {
-  margin-bottom: 1rem;
-  width: fit-content;
-}
 .traditions-section img {
   display: none;
+}
+
+.traditions-article > p {
+  margin-bottom: 2rem;
 }
 
 /* *========== Team section ========== */
@@ -247,27 +251,6 @@ footer {
   padding: 32px 0;
   color: var(--second-color-white);
 }
-
-/* !========== Deleted from footer */
-/* .footer-logo {
-  display: none;
-}
-
-.footer-logo-nav-container,
-.footer-address-container {
-  margin-bottom: 1rem;
-  text-align: center;
-} */
-
-/* .footer-address-list {
-  display: inline-block;
-  width: 250px;
-} */
-/* .footer-logo-nav-container li:not(:last-child),
-.footer-address-container li:not(:last-child) {
-  margin-bottom: 1rem;
-} */
-/* !========== Deleted from footer */
 
 /* Footer social media links */
 
