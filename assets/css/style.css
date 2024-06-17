@@ -337,6 +337,12 @@ footer {
 
 /* *========== CONTACT =========== */
 
+.contacts-container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
 /* *========== RESPONSIVE UI========= */
 
 /* *========== 768px and up ========== */
