@@ -100,3 +100,17 @@ Figma is used to find inspiration.
   - Press Enter. Your local clone will be created.
 
 ## Credits
+
+- Code & Content
+  - I give credits to [Stack overflow](https://www.stackoverflow.com/),  [MDN Web Docs](https://developer.mozilla.org/en-US/), [W3 Schools](https://www.w3schools.com/) & [LogRocket](https://blog.logrocket.com/) for helping me resolve issues while coding through
+  - inspiration for my subject and color pallet goes from [Figma](https://www.figma.com/design/fDlsHwelyuOVsfUmCzm3dA/%D0%A1%D1%83%D1%87%D0%B0%D1%81%D0%BD%D1%8F-%D0%BF%D0%B5%D0%BA%D0%B0%D1%80%D0%BD%D1%8F?node-id=0-1&t=VeNx8IUKIo2EOdRB-0)
+  - Love running project from [Code Institute](https://codeinstitute.net/ie/) inspired me for the Gallery page
+  - credits for hover effect over images and other effects for elements goes to [Brandsmen](https://thebrandsmen.com/css-image-hover-effects/) and [UIverse](https://uiverse.io/)
+  - credits for gallery goes from [LogRocket](https://blog.logrocket.com/responsive-image-gallery-css-flexbox/)
+- Media
+  - credit for my images across the website goes to [Unsplash](https://unsplash.com/) and [Pexell](https://www.pexels.com/) which I used across my website
+  - for my logo I give credit to [app-logo](https://app.logo.com/) for easily generating my idea and automatic creating logo for my website
+  - instructions how to create my favicon came from [MDN Web Docs](https://developer.mozilla.org/en-US/)
+  - my favicon I found on [FlatIcon](https://www.flaticon.com/)
+  - for optimize images was used [Squoosh](https://squoosh.app/) service
+- Acknowledgment
