@@ -363,15 +363,18 @@ footer {
   .team-list {
     flex-direction: row;
     flex-wrap: wrap;
-    column-gap: 24px;
+    column-gap: 64px;
     row-gap: 64px;
     justify-content: center;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   /* Add flex basis to show two elements */
 
   .team-list-item {
-    flex-basis: calc((100% - (2 * 24px)) / 3);
+    flex-basis: calc((100% - (24px)) / 2);
     padding: 0;
     max-width: 264px;
   }
@@ -417,6 +420,17 @@ footer {
 
   .photos {
     column-count: 4;
+  }
+}
+
+/*   */
+
+/* *========== 1200px and up ========== */
+
+@media screen and (min-width: 1200px) {
+  .team-list {
+    width: 90vw;
+    max-width: var(--max-width);
   }
 }
 
