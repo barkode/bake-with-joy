@@ -277,9 +277,11 @@ footer {
   justify-content: space-evenly;
 }
 
-.footer-social-net-menu i {
-  font-size: 200%;
-  color: var(--second-color-white);
+.footer-social-net-menu svg {
+  width: 2rem;
+  height: 2rem;
+  fill: var(--second-color-white);
+  transition: fill var(--trans-dur-and-func);
 }
 
 /* *========== GALLERY =========== */
@@ -478,9 +480,8 @@ footer {
 
   /* Footer */
 
-  .footer-social-net-menu i:hover {
-    color: var(--main-color-green);
-    transition: color var(--trans-dur-and-func);
+  .footer-social-net-menu svg:hover {
+    fill: var(--main-color-green);
   }
 
   /* Gallery */
