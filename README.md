@@ -38,11 +38,11 @@
 - HTML5
 - CSS3
 
-### Frameworks, Libraries & Programes Used
+### Frameworks, Libraries & Programs Used
 
-- #### [Google fonts](https://fonts.google.com/knowledge)
+- #### [Google fonts](https://fonts.google.com/knowledge) and [google webfonts helper](https://gwfh.mranftl.com/fonts)
 
-Google fonts were used to import the 'Dosis' font into the style.css file which is used on all pages throughout the project
+Google fonts and google webfonts helper were used to integrate the 'Poppins' font into the style.css file which is used on all pages throughout the project
 
 - #### [Font Awesome](https://fontawesome.com/)
 
@@ -57,6 +57,10 @@ Git was used for version control by utilizing the Gitpod terminal to commit to G
 GitHub is used to store the projects code after being pushed from Git.
 
 - #### [Balsamic](https://balsamiq.com/wireframes/)
+
+- #### [Figma](https://www.figma.com/community)
+
+Figma is used to find inspiration.
 
 ## Testing
 

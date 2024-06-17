@@ -167,9 +167,19 @@ main {
 /* *=========== Traditions ========== */
 
 .traditions-section {
-  padding: 1rem 0;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  text-align: center;
 }
 
+.traditions-section > h2 {
+  margin-bottom: 1rem;
+}
+
+.traditions-section p:not(:last-child) {
+  margin-bottom: 1rem;
+  width: fit-content;
+}
 .traditions-section img {
   display: none;
 }
@@ -345,6 +355,10 @@ footer {
   .traditions-article {
     display: flex;
     flex-direction: row-reverse;
+  }
+
+  .traditions-article p {
+    align-self: center;
   }
 
   .delivery-article {
