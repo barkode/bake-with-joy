@@ -134,43 +134,60 @@
               method="post"
               class="contact-form"
             >
-              <label for="fname">First name</label>
-              <input
-                type="text"
-                name="fname"
-                id="fname"
-                required
-                placeholder="Enter your first name"
-              />
-              <label for="lname">Last name</label>
-              <input
-                type="text"
-                name="lname"
-                id="lname"
-                required
-                placeholder="Enter your last name"
-              />
-              <label for="email">Email</label>
-              <input
-                type="email"
-                name="email"
-                id="email"
-                required
-                placeholder="Enter your email"
-              />
-              <label for="phone">Phone number</label>
-              <input
-                type="tel"
-                name="phone"
-                id="phone"
-                placeholder="Enter your phone"
-              />
-              <label for="additional"></label>
-              <textarea
-                name="additional"
-                id="additional"
-                placeholder="Text input"
-              ></textarea>
+              <div class="form-input-container">
+                <input
+                  class="contact-form-input"
+                  type="text"
+                  name="fname"
+                  id="fname"
+                  required
+                  placeholder="Enter your first name"
+                />
+                <label for="fname" class="contact-form-label">First name</label>
+              </div>
+              <div class="form-input-container">
+                <input
+                  class="contact-form-input"
+                  type="text"
+                  name="lname"
+                  id="lname"
+                  required
+                  placeholder="Enter your last name"
+                />
+                <label for="lname" class="contact-form-label">Last name</label>
+              </div>
+              <div class="form-input-container">
+                <input
+                  class="contact-form-input"
+                  type="email"
+                  name="email"
+                  id="email"
+                  required
+                  placeholder="Enter your email"
+                />
+                <label for="email" class="contact-form-label">Email</label>
+              </div>
+              <div class="form-input-container">
+                <input
+                  class="contact-form-input"
+                  type="tel"
+                  name="phone"
+                  id="phone"
+                  placeholder="Enter your phone"
+                />
+                <label for="phone" class="contact-form-label"
+                  >Phone number</label
+                >
+              </div>
+              <div class="form-input-container">
+                <textarea
+                  name="additional"
+                  id="additional"
+                  placeholder="Text input"
+                ></textarea>
+                <label for="additional" class="contact-form-label"></label>
+              </div>
+              <button type="submit">Send</button>
             </form>
           </div>
         </section>
