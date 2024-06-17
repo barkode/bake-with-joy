@@ -306,6 +306,11 @@ footer {
   line-height: 0;
 }
 
+.photos::after {
+  content: '';
+  flex-basis: 270px;
+}
+
 /* *========== CONTACT =========== */
 
 /* *========== RESPONSIVE UI========= */
