@@ -178,11 +178,9 @@ main {
 .traditions-section {
   padding-top: 2rem;
   padding-bottom: 1rem;
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
   width: 100%;
-  max-width: 80vw;
+  /* max-width: 80vw; */
 }
 
 .traditions-section > h2 {
@@ -303,7 +301,7 @@ footer {
 
 .photos li img {
   object-fit: cover;
-  /* line-height: 1em; */
+  line-height: 1em;
   border-radius: 8px;
   object-fit: cover;
   width: 100%;
@@ -320,7 +318,7 @@ footer {
 /* Image card hover effect */
 
 .photos > li:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 
 .photos > li:active {
@@ -330,15 +328,6 @@ footer {
 /* *========== CONTACT =========== */
 
 /* *========== RESPONSIVE UI========= */
-
-/* *========== 576px and up ===========  */
-@media screen and (min-width: 576px) {
-  /* Gallery */
-  /* .photos {
-    column-count: 2;
-    column-gap: 0;
-  } */
-}
 
 /* *========== 768px and up ========== */
 /* Media query: tablets and large (768px and up) */
@@ -430,11 +419,6 @@ footer {
     padding: 0;
     max-width: 264px;
   }
-
-  /* Gallery */
-  /* .photos {
-    column-count: 3;
-  } */
 }
 
 /* *========== 992px and up ========== */
@@ -456,6 +440,12 @@ footer {
   .header-nav-menu li:hover {
     color: var(--main-color-green);
     scale: 0.8;
+  }
+
+  /* Traditions section */
+
+  .traditions-section.container {
+    width: 80vw;
   }
 
   /* Footer */
