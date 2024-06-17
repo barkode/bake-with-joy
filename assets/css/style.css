@@ -298,6 +298,7 @@ footer {
   height: 270px;
   cursor: pointer;
   position: relative;
+  transition: transform var(--trans-dur-and-func);
 }
 
 .photos li img {
@@ -310,9 +311,20 @@ footer {
   vertical-align: middle;
 }
 
-.photos::after {
+/* ! NEED TO CHECK */
+/* .photos::after {
   content: '';
   flex-grow: 999;
+} */
+
+/* Image card hover effect */
+
+.photos > li:hover {
+  transform: scale(1.05);
+}
+
+.photos > li:active {
+  transform: scale(0.95) rotateZ(1.7deg);
 }
 
 /* *========== CONTACT =========== */
