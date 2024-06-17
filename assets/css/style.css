@@ -153,12 +153,18 @@ main {
 /* Hero section */
 .hero {
   height: 80vh;
-  width: 100%;
+
+  /* max-width: var(--max-width); */
+  /* margin-left: auto; */
+  /* margin-right: auto; */
   background-image: linear-gradient(var(--bg-gradient)), var(--main-bg-img);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+}
+.hero.container {
+  width: 100%;
 }
 
 .cover-text {
@@ -185,6 +191,7 @@ main {
 
 .traditions-section > h2 {
   margin-bottom: 1rem;
+  font-size: 2rem;
 }
 
 .traditions-section img {
@@ -207,7 +214,7 @@ main {
   margin-bottom: 1rem;
   font-size: 2rem;
   text-align: center;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 
 .team-list {
@@ -231,6 +238,7 @@ main {
 .team-list-item h3 {
   margin-bottom: 8px;
   text-transform: capitalize;
+  font-size: 1.3rem;
 }
 
 .team-list-item p {
@@ -319,10 +327,12 @@ footer {
 
 .photos > li:hover {
   transform: scale(1.1);
+  z-index: 88;
 }
 
 .photos > li:active {
   transform: scale(0.95) rotateZ(1.7deg);
+  z-index: 88;
 }
 
 /* *========== CONTACT =========== */
@@ -379,6 +389,7 @@ footer {
   .traditions-article {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: center;
   }
 
   .traditions-article p {
@@ -390,6 +401,7 @@ footer {
 
   .delivery-article {
     display: flex;
+    justify-content: center;
   }
 
   .delivery-article p {
