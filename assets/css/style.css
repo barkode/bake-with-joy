@@ -280,6 +280,7 @@ footer {
 .gallery {
   margin-top: 2rem;
   margin-bottom: 2rem;
+  height: 100%;
 }
 
 .photos {
@@ -287,28 +288,31 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
-}
-
-.photos > a {
-  flex-basis: 270px;
-}
-
-.photos a img {
-  max-width: 100%;
-  height: auto;
-  object-fit: cover;
-  vertical-align: middle;
-  line-height: 1em;
-  border-radius: 8px;
-}
-
-.photos {
   line-height: 0;
+}
+
+.photos > li {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  height: 270px;
+  cursor: pointer;
+  position: relative;
+}
+
+.photos li img {
+  object-fit: cover;
+  /* line-height: 1em; */
+  border-radius: 8px;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
 }
 
 .photos::after {
   content: '';
-  flex-basis: 270px;
+  flex-grow: 999;
 }
 
 /* *========== CONTACT =========== */
