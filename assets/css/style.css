@@ -343,6 +343,15 @@ footer {
   text-align: center;
 }
 
+/* Form */
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 /* *========== RESPONSIVE UI========= */
 
 /* *========== 768px and up ========== */

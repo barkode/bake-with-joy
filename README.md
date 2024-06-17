@@ -25,7 +25,7 @@
 
 ### Design
 
-- ####  Colour Scheme
+- ####  Color Scheme
 
 - ####  Typography
 
@@ -60,7 +60,7 @@ GitHub is used to store the projects code after being pushed from Git.
 
 - #### [Figma](https://www.figma.com/community)
 
-Figma is used to find inspiration.
+Figma was used to find inspiration.
 
 ## Testing
 
