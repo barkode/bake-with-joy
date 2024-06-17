@@ -137,8 +137,9 @@ header {
   display: none;
 }
 
-.nav-toggle-label {
-  font-size: 2rem;
+.nav-toggle-label > svg {
+  width: 2rem;
+  height: 2rem;
 }
 
 /* *========== MAIN ========== */
