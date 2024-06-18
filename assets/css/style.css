@@ -334,9 +334,40 @@ footer {
 
 /* *========== CONTACT =========== */
 
-.contacts-container {
+.work-hours-section {
   padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
+}
+
+.work-hours-section > h2 {
+  margin-bottom: 1rem;
+}
+
+/* Working hours table */
+.work-hours-table {
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--second-color-dark);
+}
+
+.work-hours-table th {
+  color: var(--main-color-dark);
+}
+
+.work-hours-table th,
+.work-hours-table td {
+  display: table-cell;
+
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-bottom: 1em;
+  padding-right: 1em;
+
+  text-align: left;
+}
+
+/* Contacts */
+.contacts-container {
   text-align: center;
 }
 
@@ -420,6 +451,10 @@ footer {
 }
 
 /* *========== RESPONSIVE UI========= */
+
+/* *========== 280px and up ========== */
+@media screen and (min-width: 240px) {
+}
 
 /* *========== 768px and up ========== */
 /* Media query: tablets and large (768px and up) */
