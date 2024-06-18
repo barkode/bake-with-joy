@@ -37,6 +37,7 @@
 body {
   display: flex;
   flex-direction: column;
+  height: 100vh;
   /* Generic project styles */
   color: var(--main-color-dark);
   background-color: var(--main-color-white);
