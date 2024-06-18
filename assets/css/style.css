@@ -465,6 +465,77 @@ footer {
   box-shadow: none;
 }
 
+/* Contact form send Button */
+
+.contact-form-send-button {
+  color: var(--main-color-dark);
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: transparent;
+}
+
+.contact-form-send-button > span {
+  /* width: 140px; */
+  height: auto;
+  /* float: left; */
+  transition: 0.5s linear;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  padding: 1rem;
+  text-align: center;
+  margin: 0 5px;
+  background: transparent;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.contact-form-send-button > span:before {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  height: 4px;
+  width: 100%;
+  border-bottom: 4px solid transparent;
+  border-left: 4px solid transparent;
+  box-sizing: border-box;
+  transform: translateX(100%);
+}
+
+.contact-form-send-button > span:after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  border-top: 4px solid transparent;
+  border-right: 4px solid transparent;
+  box-sizing: border-box;
+  transform: translateX(-100%);
+}
+
+.contact-form-send-button > span:hover {
+  box-shadow: 0 5px 15px var(--box-shadow-img);
+}
+
+.contact-form-send-button > span:hover:before {
+  border-color: var(--main-color-green);
+  height: 100%;
+  transform: translateX(0);
+  transition: 0.3s transform linear, 0.3s height linear 0.3s;
+}
+
+.contact-form-send-button > span:hover:after {
+  border-color: var(--main-color-green);
+  height: 100%;
+  transform: translateX(0);
+  transition: 0.3s transform linear, 0.3s height linear 0.5s;
+}
+
 /* *========== RESPONSIVE UI========= */
 
 /* *========== 280px and up ========== */
