@@ -184,19 +184,26 @@ main {
 /* *=========== Traditions ========== */
 
 .traditions-section {
+  /* padding-top: 2rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  width: 100%; */
+  /* max-width: 80vw; */
+}
+
+.traditions-section-container {
   padding-top: 2rem;
   padding-bottom: 1rem;
   text-align: center;
   width: 100%;
-  /* max-width: 80vw; */
 }
 
-.traditions-section > h2 {
+.traditions-section-container > h2 {
   margin-bottom: 1rem;
   font-size: 2rem;
 }
 
-.traditions-section img {
+.traditions-section-container img {
   display: none;
 }
 
@@ -610,17 +617,61 @@ footer {
 
   /* Our Traditions */
 
-  .traditions-section img {
+  .traditions-section-container img {
     display: block;
     border-radius: 8px;
     box-shadow: var(--box-shadow-img);
   }
 
-  .traditions-article {
+  /* Grid layout to the tradition section */
+  .traditions-section-container {
+    display: grid;
+
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    gap: 0px;
+    height: 100%;
+  }
+
+  .traditions-img-1 {
+    background-color: inherit;
+    grid-row-start: 1;
+    grid-column-start: 1;
+
+    grid-row-end: 3;
+    grid-column-end: 2;
+  }
+  .traditions-img-2 {
+    background-color: inherit;
+    grid-row-start: 1;
+    grid-column-start: 3;
+
+    grid-row-end: 3;
+    grid-column-end: 4;
+  }
+  .traditions-section {
+    background-color: inherit;
+    grid-row-start: 1;
+    grid-column-start: 2;
+
+    grid-row-end: 2;
+    grid-column-end: 3;
+  }
+  .delivery-article {
+    background-color: inherit;
+    grid-row-start: 2;
+    grid-column-start: 2;
+
+    grid-row-end: 3;
+    grid-column-end: 3;
+  }
+
+  /* .traditions-article {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
-  }
+  } */
 
   .traditions-article p {
     align-self: center;
@@ -629,10 +680,10 @@ footer {
     margin-left: 2rem;
   }
 
-  .delivery-article {
+  /* .delivery-article {
     display: flex;
     justify-content: center;
-  }
+  } */
 
   .delivery-article p {
     align-self: center;
@@ -686,7 +737,7 @@ footer {
 
   /* Traditions section */
 
-  .traditions-section.container {
+  .traditions-section-container.container {
     width: 80vw;
   }
 
