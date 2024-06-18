@@ -337,6 +337,7 @@ footer {
 .work-hours-section {
   padding-top: 2rem;
   padding-bottom: 1rem;
+  text-align: center;
 }
 
 .work-hours-section > h2 {
@@ -534,6 +535,31 @@ footer {
   height: 100%;
   transform: translateX(0);
   transition: 0.3s transform linear, 0.3s height linear 0.5s;
+}
+
+/* Our contacts section */
+.contacts-section {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.contacts-section > h2 {
+  margin-bottom: 1rem;
+}
+
+.contacts-section > address {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Google maps */
+
+.contacts-google-maps {
+  width: 70vw;
+  height: 40vh;
 }
 
 /* *========== RESPONSIVE UI========= */
