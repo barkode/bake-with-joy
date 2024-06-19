@@ -78,7 +78,7 @@ a {
 
 .container {
   max-width: var(--max-width);
-  width: 90vw;
+  width: 95vw;
   margin-left: auto;
   margin-right: auto;
 }
@@ -599,8 +599,15 @@ footer {
 
 /* *========== RESPONSIVE UI========= */
 
-/* *========== 280px and up ========== */
-@media screen and (min-width: 240px) {
+/* *=========== to 767px ==================== */
+@media screen and (max-width: 767px) {
+  .team-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 72px;
+  }
 }
 
 /* *========== 768px and up ========== */
@@ -697,39 +704,15 @@ footer {
     grid-column-end: 3;
   }
 
-  /* .traditions-article {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-  } */
-
-  /* .traditions-article p {
-    align-self: center;
-    text-align: left;
-    margin-bottom: 0;
-    margin-left: 2rem;
-  } */
-
-  /* .delivery-article {
-    display: flex;
-    justify-content: center;
-  } */
-
-  /* .delivery-article p {
-    align-self: center;
-    text-align: left;
-    margin-bottom: 0;
-    margin-right: 2rem;
-  } */
-
   /* Team section */
 
   .team-list {
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     column-gap: 64px;
     row-gap: 64px;
-    justify-content: center;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -738,7 +721,7 @@ footer {
 
   .team-list-item {
     padding: 0;
-    max-width: 264px;
+    width: 264px;
   }
 }
 
@@ -774,32 +757,15 @@ footer {
   .footer-social-net-menu svg:hover {
     fill: var(--main-color-green);
   }
-
-  /* Gallery */
-  /* .container {
-    width: 90vw;
-  }
-
-  .gallery {
-    max-width: var(--max-width);
-  }
-
-  .photos {
-    column-count: 4;
-  } */
 }
-
-/* *========== 1055px and up  */
-/* .team-list {
-  width: 70vw;
-  max-width: var(--max-width);
-} */
 
 /* *========== 1200px and up ========== */
 
 @media screen and (min-width: 1200px) {
   .team-list {
-    width: 90vw;
+    column-gap: 1em;
+    row-gap: 1em;
+    width: 100%;
     max-width: var(--max-width);
   }
 }
