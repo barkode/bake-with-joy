@@ -616,6 +616,9 @@ footer {
   }
 
   /* Our Traditions */
+  .traditions-section {
+    text-align: center;
+  }
 
   .traditions-section-container img {
     display: block;
@@ -628,9 +631,9 @@ footer {
     display: grid;
 
     grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
 
-    gap: 0px;
+    gap: 1rem;
     height: 100%;
   }
 
@@ -673,24 +676,24 @@ footer {
     justify-content: center;
   } */
 
-  .traditions-article p {
+  /* .traditions-article p {
     align-self: center;
     text-align: left;
     margin-bottom: 0;
     margin-left: 2rem;
-  }
+  } */
 
   /* .delivery-article {
     display: flex;
     justify-content: center;
   } */
 
-  .delivery-article p {
+  /* .delivery-article p {
     align-self: center;
     text-align: left;
     margin-bottom: 0;
     margin-right: 2rem;
-  }
+  } */
 
   /* Team section */
 
