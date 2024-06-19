@@ -73,6 +73,32 @@ a {
   text-transform: uppercase;
   font-weight: 600;
 }
+
+/* *========== SERVICE CLASSES =========*/
+
+.container {
+  max-width: var(--max-width);
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.active {
+  color: var(--main-color-green);
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  margin: -1px;
+  clip-path: inset(50%);
+  clip: rect(0 0 0 0);
+}
 /* *========== HEADER ========== */
 
 header {
@@ -214,15 +240,16 @@ main {
 /* *========== Team section ========== */
 
 .team-section {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+
   text-align: center;
-  margin-bottom: 1rem;
-  padding: 1rem 0;
 }
 
-.team-section > h2 {
+.team-section h2 {
   margin-bottom: 1rem;
   font-size: 2rem;
-  text-align: center;
+  /* text-align: center; */
   /* text-transform: capitalize; */
 }
 
@@ -703,7 +730,6 @@ footer {
     column-gap: 64px;
     row-gap: 64px;
     justify-content: center;
-    width: 80vw;
     margin-left: auto;
     margin-right: auto;
   }
@@ -711,7 +737,6 @@ footer {
   /* Add flex basis to show two elements */
 
   .team-list-item {
-    flex-basis: calc((100% - (24px)) / 2);
     padding: 0;
     max-width: 264px;
   }
@@ -764,7 +789,11 @@ footer {
   } */
 }
 
-/*   */
+/* *========== 1055px and up  */
+/* .team-list {
+  width: 70vw;
+  max-width: var(--max-width);
+} */
 
 /* *========== 1200px and up ========== */
 
@@ -773,30 +802,4 @@ footer {
     width: 90vw;
     max-width: var(--max-width);
   }
-}
-
-/* *========== SERVICE CLASSES =========*/
-
-.container {
-  max-width: var(--max-width);
-  width: 90vw;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.active {
-  color: var(--main-color-green);
-}
-
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  margin: -1px;
-  clip-path: inset(50%);
-  clip: rect(0 0 0 0);
 }
