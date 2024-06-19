@@ -212,8 +212,10 @@ main {
 }
 
 .traditions-section h2 {
+  margin-bottom: 1rem;
+
+  font-size: 2rem;
   text-align: center;
-  margin-bottom: 2rem;
 }
 
 .traditions-section-container {
@@ -255,8 +257,14 @@ main {
 .team-list {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  row-gap: 40px;
+  row-gap: 72px;
+
+  /* row-gap: 40px; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
 }
 
 .team-list-item {
@@ -512,19 +520,19 @@ footer {
 }
 
 .contact-form-send-button > span {
-  /* width: 140px; */
-  height: auto;
-  /* float: left; */
-  transition: 0.5s linear;
-  position: relative;
   display: block;
-  overflow: hidden;
+  position: relative;
+  height: auto;
   padding: 1rem;
-  text-align: center;
   margin: 0 5px;
-  background: transparent;
-  text-transform: uppercase;
+
   font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  overflow: hidden;
+  background: transparent;
+
+  transition: 0.5s linear;
 }
 
 .contact-form-send-button > span:before {
@@ -597,17 +605,6 @@ footer {
 }
 
 /* *========== RESPONSIVE UI========= */
-
-/* *=========== to 767px ==================== */
-@media screen and (max-width: 767px) {
-  .team-list {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    row-gap: 72px;
-  }
-}
 
 /* *========== 768px and up ========== */
 /* Media query: tablets and large (768px and up) */
@@ -708,10 +705,9 @@ footer {
   .team-list {
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
     column-gap: 64px;
     row-gap: 64px;
-    width: 80%;
+    /* width: 80%; */
     margin-left: auto;
     margin-right: auto;
   }
@@ -755,6 +751,14 @@ footer {
 
   .footer-social-net-menu svg:hover {
     fill: var(--main-color-green);
+  }
+}
+
+/* *========== from 968 to 1199px =========*/
+/* Media query for team section to show 2 cards per row */
+@media screen and (min-width: 968px) and (max-width: 1200px) {
+  .team-list {
+    width: 80%;
   }
 }
 
