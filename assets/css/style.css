@@ -14,7 +14,7 @@
 
 :root {
   /* Maximum width */
-  --max-width: 1600px;
+  --max-width: 1290px;
 
   /* Main site colors */
   --main-bg-img: url(../images/hero-image.webp);
@@ -638,18 +638,30 @@ footer {
   }
 
   /* Our Traditions */
-  .traditions-section {
+
+  .traditions-section-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 24px;
+    padding: 1rem;
+
     text-align: center;
   }
 
   .traditions-section-container img {
     display: block;
-    border-radius: 8px;
+
     box-shadow: var(--box-shadow-img);
+    border-radius: 8px;
+  }
+  .traditions-article {
+    width: 600px;
+    text-align: left;
   }
 
+  /* ! Commit grids */
   /* Grid layout to the tradition section */
-  .traditions-section-container {
+  /* .traditions-section-container {
     display: grid;
 
     grid-template-rows: 1fr 1fr;
@@ -690,8 +702,8 @@ footer {
 
     grid-row-end: 3;
     grid-column-end: 3;
-  }
-
+  } */
+  /* ! Commit grids */
   /* Team section */
 
   .team-list {
@@ -734,9 +746,9 @@ footer {
 
   /* Traditions section */
 
-  .traditions-section-container.container {
+  /* .traditions-section-container.container {
     width: 80vw;
-  }
+  } */
 
   /* Footer */
 
