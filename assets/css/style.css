@@ -181,18 +181,15 @@ main {
 /* Hero section */
 .hero {
   height: 80vh;
-
-  /* max-width: var(--max-width); */
-  /* margin-left: auto; */
-  /* margin-right: auto; */
   background-image: linear-gradient(var(--bg-gradient)), var(--main-bg-img);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  position: relative;
 }
-.hero.container {
-  width: 100%;
+
+.hero-container {
+  height: 100%;
+  position: relative;
 }
 
 .cover-text {
