@@ -14,7 +14,7 @@
 
 :root {
   /* Maximum width */
-  --max-width: 1290px;
+  --max-width: 1300px;
 
   /* Main site colors */
   --main-bg-img: url(../images/hero-image.webp);
@@ -369,7 +369,7 @@ footer {
 /* *========== CONTACT =========== */
 
 .work-hours-section {
-  padding-top: 2rem;
+  padding-top: 1rem;
   padding-bottom: 1rem;
   text-align: center;
 }
@@ -401,7 +401,7 @@ footer {
   text-align: left;
 }
 
-/* Contacts */
+/* ===================== Contacts */
 .contact-form-section {
   text-align: center;
   padding-top: 1rem;
@@ -412,7 +412,7 @@ footer {
   margin-bottom: 1rem;
 }
 
-/* Form */
+/* Contact Form */
 
 .contact-form {
   display: flex;
@@ -422,7 +422,7 @@ footer {
   width: 100%;
   max-width: 270px;
 }
-
+/* Contact form input styles */
 .form-input-container {
   position: relative;
   margin-bottom: 1.3rem;
@@ -584,20 +584,30 @@ footer {
 /* Our contacts section */
 .contacts-section {
   padding-top: 1rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 
   text-align: center;
 }
 
-.contacts-section > h2 {
+.contact-section-container > h2 {
   margin-bottom: 1rem;
 }
 
-.contacts-section > address {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.contact-section-container > address {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.contacts-section-address-list-item:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.contacts-section-address-list-item > a {
+  display: block;
+
+  font-family: var(--main-font-family);
+  font-style: normal;
+  text-align: left;
 }
 
 /* Google maps */
@@ -634,12 +644,6 @@ footer {
 
   .nav-toggle-label {
     display: none;
-  }
-
-  .logo {
-    font-size: 200%;
-    line-height: 75px;
-    margin: 0 0.5rem;
   }
 
   /* Hero */
@@ -709,16 +713,16 @@ footer {
     scale: 0.8;
   }
 
-  /* Traditions section */
-
-  /* .traditions-section-container.container {
-    width: 80vw;
-  } */
-
   /* Footer */
 
   .footer-social-net-menu svg:hover {
     fill: var(--main-color-green);
+  }
+
+  /* ================= Contacts page */
+  .contacts-section-address-list-item > a:hover,
+  .contacts-section-address-list-item > a:focus {
+    color: var(--main-color-green);
   }
 }
 
