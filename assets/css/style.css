@@ -591,23 +591,25 @@ footer {
 
   text-align: center;
 }
-/*
+
 .contact-section-container {
   padding-left: 1rem;
   padding-right: 1rem;
-} */
+}
 
 .contact-section-container > h2 {
   margin-bottom: 1rem;
 }
 
-.contact-section-container > address {
+/* .contact-section-container > address {
   margin-left: 1em;
   margin-right: 1em;
-}
+} */
 
-.contact-section-container-list {
+.contacts-section address {
   width: 250px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .contacts-section-address-list-item:not(:last-child) {
