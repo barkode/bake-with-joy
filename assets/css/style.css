@@ -68,13 +68,13 @@ a {
   color: inherit;
 }
 
+/* *========== SERVICE CLASSES =========*/
+
 .accent-name {
   color: var(--second-color-green);
   text-transform: uppercase;
   font-weight: 600;
 }
-
-/* *========== SERVICE CLASSES =========*/
 
 .container {
   max-width: var(--max-width);
@@ -99,6 +99,7 @@ a {
   clip-path: inset(50%);
   clip: rect(0 0 0 0);
 }
+
 /* *========== HEADER ========== */
 
 header {
@@ -109,14 +110,12 @@ header {
 }
 
 .header-container {
-  /* width: 90vw; */
-  /* max-width: 1600px; */
-  /* padding: 0 1rem; */
-  margin-left: auto;
-  margin-right: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+
   background-color: inherit;
   color: inherit;
 }
@@ -178,7 +177,12 @@ main {
   flex-basis: auto;
   margin-top: 90px;
 }
-/* Hero section */
+
+.contacts-container {
+  padding-bottom: 1rem;
+}
+
+/*=============================== Hero section */
 .hero {
   height: 80vh;
   background-image: linear-gradient(var(--bg-gradient)), var(--main-bg-img);
@@ -376,30 +380,6 @@ footer {
 
 .work-hours-section > h2 {
   margin-bottom: 1rem;
-}
-
-/* ================ Working hours table */
-.work-hours-table {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  margin-left: auto;
-  margin-right: auto;
-
-  color: var(--second-color-dark);
-}
-
-.work-hours-table th {
-  color: var(--main-color-dark);
-}
-
-.work-hours-table th,
-.work-hours-table td {
-  padding-top: 0.3em;
-  padding-left: 0.3em;
-  padding-bottom: 0.3em;
-  padding-right: 0.3em;
-
-  text-align: left;
 }
 
 /* ===================== Contacts */
@@ -625,10 +605,50 @@ footer {
   text-align: left;
 }
 
-/* Google maps */
+/* ================ Working hours table */
+.work-hours-table {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+
+  color: var(--second-color-dark);
+}
+
+.work-hours-table th {
+  color: var(--main-color-dark);
+}
+
+.work-hours-table th,
+.work-hours-table td {
+  padding-top: 0.3em;
+  padding-left: 0.3em;
+  padding-bottom: 0.3em;
+  padding-right: 0.3em;
+
+  text-align: left;
+}
+
+/* ======================== Google maps section*/
+
+.google-maps-section {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.google-maps-container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.google-maps-container h3 {
+  padding-bottom: 1rem;
+}
 
 .contacts-google-maps {
-  width: 70vw;
+  width: 100%;
+  max-width: 280px;
   height: 40vh;
 }
 
