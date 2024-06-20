@@ -796,8 +796,15 @@ footer {
 
   /* ================= Contacts page */
 
-  .contacts-section-address-list-item > a:hover,
-  .contacts-section-address-list-item > a:focus {
+  .contacts-section-address-list-item div {
+    transition: color var(--trans-dur-and-func);
+  }
+  .contacts-section-address-list-item h3 {
+    color: inherit;
+  }
+
+  .contacts-section-address-list-item div:hover,
+  .contacts-section-address-list-item div:focus {
     color: var(--main-color-green);
   }
 }
