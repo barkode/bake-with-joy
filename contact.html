@@ -124,7 +124,7 @@
         </section>
         <!-- Form Contact US -->
         <section class="contact-form-section">
-          <h2>Fill the form, and we call you</h2>
+          <h2>Get in tach</h2>
           <form
             action="https://formdump.codeinstitute.net"
             method="post"
@@ -132,58 +132,51 @@
           >
             <div class="form-input-container">
               <input
-                class="contact-form-input"
-                type="text"
-                name="fname"
-                id="fname"
                 required
-                placeholder="Enter your first name"
+                type="text"
+                class="form-input"
+                name="name"
+                id="name"
               />
-              <label for="fname" class="contact-form-label">First name</label>
+              <span class="highlight"></span>
+              <span class="bar"></span>
+              <label for="name" class="form-label">Name</label>
             </div>
             <div class="form-input-container">
               <input
-                class="contact-form-input"
-                type="text"
-                name="lname"
-                id="lname"
                 required
-                placeholder="Enter your last name"
-              />
-              <label for="lname" class="contact-form-label">Last name</label>
-            </div>
-            <div class="form-input-container">
-              <input
-                class="contact-form-input"
                 type="email"
+                class="form-input"
                 name="email"
                 id="email"
-                required
-                placeholder="Enter your email"
               />
-              <label for="email" class="contact-form-label">Email</label>
+              <span class="highlight"></span>
+              <span class="bar"></span>
+              <label for="email" class="form-label">Email</label>
             </div>
             <div class="form-input-container">
               <input
-                class="contact-form-input"
+                required
                 type="tel"
-                name="phone"
-                id="phone"
-                placeholder="Enter your phone"
+                class="form-input"
+                name="phone-number"
+                id="phone-number"
               />
-              <label for="phone" class="contact-form-label">Phone number</label>
+              <!-- <span class="highlight"></span> -->
+              <span class="bar"></span>
+              <label for="phone-number" class="form-label">Phone</label>
             </div>
-            <div class="form-input-container">
+            <div class="form-textarea-container">
               <textarea
-                name="additional"
-                id="additional"
-                placeholder="Text input"
+                name="user-text"
+                id="user-text"
+                placeholder="Your comment"
                 class="contact-form-textarea"
               ></textarea>
-              <label for="additional" class="contact-form-label"
-                >Write your comment</label
-              >
+              <span class="highlight-txt"></span>
+              <span class="bar-txt"></span>
             </div>
+
             <button type="submit" class="contact-form-send-button">
               <span>Send</span>
             </button>
