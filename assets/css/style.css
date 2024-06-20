@@ -656,6 +656,7 @@ footer {
 .page-404 {
   height: 100%;
 }
+
 /* Add bg image to the page */
 .page-404-container {
   position: relative;
@@ -667,7 +668,38 @@ footer {
   background-repeat: no-repeat;
 }
 
-/*  */
+.page-404-container p {
+  margin-bottom: 8px;
+}
+
+/* Add styles to back to home link */
+
+.page-404-link {
+  display: block;
+  width: fit-content;
+  padding: 4px;
+  margin-bottom: 8px;
+
+  font-weight: 600;
+  border-radius: 8px;
+  color: var(--main-color-dark);
+  background-color: var(--main-color-green);
+  border: none;
+  outline: none;
+
+  transition: color var(--trans-dur-and-func),
+    background-color var(--trans-dur-and-func);
+}
+
+/* Add styles to phone number */
+
+.page-404-phone {
+  display: block;
+  width: fit-content;
+
+  font-weight: 600;
+  color: var(--main-color-green);
+}
 
 /* *========== RESPONSIVE UI========= */
 
@@ -816,6 +848,12 @@ footer {
   .contacts-section-address-list-item div:hover,
   .contacts-section-address-list-item div:focus {
     color: var(--main-color-green);
+  }
+  /* ============================ 404 page */
+
+  .page-404-link:hover,
+  .page-404-link:focus {
+    color: var(--second-color-white);
   }
 }
 
