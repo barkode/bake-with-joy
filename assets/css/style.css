@@ -3,9 +3,9 @@
 
 /* Override default styles added from browser */
 * {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
 }
 
 /* *========== GENERAL STYLES */
@@ -21,12 +21,15 @@
   --main-color-white: #faf4ea;
   --main-color-dark: #31261a;
   --main-color-green: #819b57;
+
   /* Secondary site colors */
   --second-color-white: #cfcfbc;
   --second-color-dark: #a18268;
   --second-color-green: #465929;
+
   /* Font family */
   --main-font-family: Poppins, sens-serif;
+
   /* Transition duration and function */
   --trans-dur-and-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   --box-shadow-img: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -38,10 +41,12 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
+
   /* Generic project styles */
+
+  font-family: var(--main-font-family);
   color: var(--main-color-dark);
   background-color: var(--main-color-white);
-  font-family: var(--main-font-family);
 }
 
 h1,
@@ -71,14 +76,14 @@ a {
 /* *========== SERVICE CLASSES =========*/
 
 .accent-name {
+  font-weight: 600;
   color: var(--second-color-green);
   text-transform: uppercase;
-  font-weight: 600;
 }
 
 .container {
-  max-width: var(--max-width);
   width: 95vw;
+  max-width: var(--max-width);
   margin-left: auto;
   margin-right: auto;
 }
@@ -89,13 +94,15 @@ a {
 
 .visually-hidden {
   position: absolute;
-  white-space: nowrap;
-  width: 1px;
   height: 1px;
-  overflow: hidden;
-  border: 0;
+  width: 1px;
   padding: 0;
   margin: -1px;
+
+  white-space: nowrap;
+  overflow: hidden;
+  border: 0;
+
   clip-path: inset(50%);
   clip: rect(0 0 0 0);
 }
@@ -103,10 +110,11 @@ a {
 /* *========== HEADER ========== */
 
 header {
-  background-color: var(--second-color-white);
   position: fixed;
-  z-index: 99;
   width: 100%;
+  z-index: 99;
+
+  background-color: var(--second-color-white);
 }
 
 .header-container {
@@ -130,6 +138,7 @@ header {
 
 .header-nav-menu {
   display: inline-block;
+
   font-size: 160%;
   letter-spacing: 4px;
   text-align: center;
@@ -141,21 +150,22 @@ header {
 
 /* Navbar with dropdown toggle */
 .header-nav {
-  position: absolute;
-  background-color: var(--second-color-white);
-  width: 100%;
-  left: 0;
-  padding: 0 1rem;
-  /* box-shadow: 0 2px 2px var(--main-color-dark); */
   display: none;
+  position: absolute;
+  left: 0;
   top: 100%;
+  width: 100%;
+  padding: 0 1rem;
+
   text-align: center;
+  background-color: var(--second-color-white);
 }
 
 /* Nav toggle */
 #nav-toggle:checked ~ .header-nav {
   display: block;
   height: 100vh;
+
   overflow: hidden;
 }
 
@@ -164,8 +174,8 @@ header {
 }
 
 .nav-toggle-label > svg {
-  width: 2rem;
   height: 2rem;
+  width: 2rem;
 }
 
 /* *========== MAIN ========== */
@@ -185,6 +195,7 @@ main {
 /*=============================== Hero section */
 .hero {
   height: 80vh;
+
   background-image: linear-gradient(var(--bg-gradient)), var(--main-bg-img);
   background-position: center;
   background-size: cover;
@@ -200,10 +211,10 @@ main {
   /* Try to change text colors */
   position: absolute;
   bottom: 30px;
-  padding-top: 40px;
-  padding-left: 10px;
   min-height: 200px;
   width: 80%;
+  padding-top: 40px;
+  padding-left: 10px;
 
   font-size: 130%;
   background-color: #cfcfbcaa;
@@ -252,6 +263,7 @@ main {
 
 .team-section h2 {
   margin-bottom: 1rem;
+
   font-size: 2rem;
 }
 
@@ -264,8 +276,8 @@ main {
 }
 
 .team-list-item {
-  background-color: inherit;
   text-align: center;
+  background-color: inherit;
   border-radius: 8px;
   box-shadow: var(--box-shadow-img);
 }
@@ -276,6 +288,7 @@ main {
 
 .team-list-item h3 {
   margin-bottom: 8px;
+
   text-transform: capitalize;
   font-size: 1.3rem;
 }
@@ -297,37 +310,41 @@ main {
 }
 /* *========== FOOTER =========== */
 footer {
+  position: relative;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
   background-image: url('../images/footer-bg-image.webp');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  position: relative;
-  padding: 32px 0;
   color: var(--second-color-white);
 }
 
 /* Footer social media links */
 
 .footer-social-net-menu {
-  text-align: center;
-  /* padding: 20px 0; */
   display: flex;
   justify-content: space-evenly;
+
+  text-align: center;
 }
 
 .footer-social-net-menu svg {
   width: 2rem;
   height: 2rem;
+
   fill: var(--second-color-white);
+
   transition: fill var(--trans-dur-and-func);
 }
 
 /* *========== GALLERY =========== */
 
 .gallery {
+  height: 100%;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  height: 100%;
 }
 
 .photos {
@@ -335,27 +352,31 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
+
   line-height: 0;
 }
 
 .photos > li {
+  position: relative;
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: auto;
   height: 270px;
+
   cursor: pointer;
-  position: relative;
+
   transition: transform var(--trans-dur-and-func);
 }
 
 .photos li img {
-  object-fit: cover;
-  line-height: 1em;
-  border-radius: 8px;
-  object-fit: cover;
   width: 100%;
   height: 100%;
   vertical-align: middle;
+  object-fit: cover;
+
+  line-height: 1em;
+  border-radius: 8px;
+  object-fit: cover;
 }
 
 /* Image card hover effect */
@@ -374,7 +395,6 @@ footer {
 
 .work-hours-section {
   padding-top: 1rem;
-  /* padding-bottom: 1rem; */
   text-align: center;
 }
 
@@ -384,11 +404,9 @@ footer {
 
 /* ===================== Contacts */
 .contact-form-section {
-  text-align: center;
   padding-top: 1rem;
-  /* padding-right: 1rem; */
-  /* padding-bottom: 1rem; */
-  /* padding-left: 1rem; */
+
+  text-align: center;
 }
 
 .contact-form-section > h2 {
@@ -413,10 +431,11 @@ footer {
 }
 
 .form-input {
-  font-size: 16px;
-  padding: 10px 10px 10px 5px;
   display: block;
+  padding: 10px 10px 10px 5px;
   width: 100%;
+
+  font-size: 16px;
   border: none;
   border-bottom: 1px solid var(--second-color-dark);
   background: transparent;
@@ -490,12 +509,12 @@ footer {
 /* Contact form send Button */
 
 .contact-form-send-button {
-  color: var(--main-color-dark);
   text-decoration: none;
-  cursor: pointer;
   outline: none;
   border: none;
+  color: var(--main-color-dark);
   background: transparent;
+  cursor: pointer;
 }
 
 .contact-form-send-button > span {
@@ -551,15 +570,19 @@ footer {
 }
 
 .contact-form-send-button > span:hover:before {
-  border-color: var(--main-color-green);
   height: 100%;
+
+  border-color: var(--main-color-green);
+
   transform: translateX(0);
   transition: var(--trans-dur-and-func), height var(--trans-dur-and-func) 250ms;
 }
 
 .contact-form-send-button > span:hover:after {
-  border-color: var(--main-color-green);
   height: 100%;
+
+  border-color: var(--main-color-green);
+
   transform: translateX(0);
   transition: transform var(--trans-dur-and-func),
     height var(--trans-dur-and-func) 250ms;
@@ -568,7 +591,6 @@ footer {
 /* Our contacts section */
 .contacts-section {
   padding-top: 1rem;
-  /* padding-bottom: 1rem; */
 
   text-align: center;
 }
@@ -583,21 +605,23 @@ footer {
 }
 
 .contacts-section-list {
-  text-align: left;
   width: 260px;
   margin-left: auto;
   margin-right: auto;
+
+  text-align: left;
 }
 
-.contacts-section-list h3 {
+.contacts-section-address-list-item-link h3 {
   font-size: 14px;
+  font-style: normal;
 }
 
 .contacts-section-address-list-item:not(:last-child) {
   margin-bottom: 1rem;
 }
 
-.contacts-section-address-list-item > a {
+.contacts-section-address-list-item-link {
   display: block;
 
   font-family: var(--main-font-family);
@@ -643,14 +667,16 @@ footer {
   .header-nav {
     display: block;
     position: relative;
-    box-shadow: none;
     width: fit-content;
     padding-right: 1rem;
+
+    box-shadow: none;
   }
 
   .header-nav-menu {
-    font-size: 130%;
     display: flex;
+
+    font-size: 130%;
   }
 
   .header-nav-menu > li {
@@ -666,8 +692,8 @@ footer {
 
   /* Hero */
   .cover-text {
-    width: 305px;
     right: 50px;
+    width: 305px;
   }
 
   /* Our Traditions */
@@ -689,8 +715,10 @@ footer {
   }
   .traditions-article {
     width: 600px;
+
     text-align: left;
   }
+
   /* Team section */
 
   .team-list {
@@ -705,14 +733,17 @@ footer {
   /* Add flex basis to show two elements */
 
   .team-list-item {
-    padding: 0;
     width: 264px;
+    padding: 0;
   }
+
   /* ======================== Google maps section*/
+
   .google-maps-section {
     display: block;
     padding-bottom: 1rem;
     padding-top: 1rem;
+
     text-align: center;
   }
 
@@ -726,16 +757,19 @@ footer {
   }
 
   .contacts-google-maps {
+    height: 40vh;
     width: 100%;
     max-width: 280px;
-    height: 40vh;
   }
 }
 
 /* *========== 992px and up ========== */
+
 /* Media query: laptop and large (992px and up) */
+
 @media screen and (min-width: 992px) {
   /* Header */
+
   .logo {
     transition: scale var(--trans-dur-and-func);
   }
@@ -750,6 +784,7 @@ footer {
 
   .header-nav-menu li:hover {
     color: var(--main-color-green);
+
     scale: 0.8;
   }
 
@@ -760,6 +795,7 @@ footer {
   }
 
   /* ================= Contacts page */
+
   .contacts-section-address-list-item > a:hover,
   .contacts-section-address-list-item > a:focus {
     color: var(--main-color-green);
@@ -778,9 +814,9 @@ footer {
 
 @media screen and (min-width: 1200px) {
   .team-list {
-    column-gap: 2%;
-    row-gap: 2%;
     width: 100%;
     max-width: var(--max-width);
+    column-gap: 2%;
+    row-gap: 2%;
   }
 }
