@@ -704,9 +704,9 @@ footer {
 /* *========= CONFIRMATION PAGE =========*/
 
 .page-confirm-container {
-  background-image: url(../images/congrat.webp);
-  background-position: center;
-  background-size: auto;
+  background-image: url(../images/tmp/macarons-2548818_1280.png);
+  background-position: top;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 
