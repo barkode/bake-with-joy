@@ -370,7 +370,7 @@ footer {
 
 .work-hours-section {
   padding-top: 1rem;
-  padding-bottom: 1rem;
+  /* padding-bottom: 1rem; */
   text-align: center;
 }
 
@@ -406,9 +406,9 @@ footer {
 .contact-form-section {
   text-align: center;
   padding-top: 1rem;
-  padding-right: 1rem;
+  /* padding-right: 1rem; */
   /* padding-bottom: 1rem; */
-  padding-left: 1rem;
+  /* padding-left: 1rem; */
 }
 
 .contact-form-section > h2 {
@@ -588,7 +588,7 @@ footer {
 /* Our contacts section */
 .contacts-section {
   padding-top: 1rem;
-  padding-bottom: 1rem;
+  /* padding-bottom: 1rem; */
 
   text-align: center;
 }
