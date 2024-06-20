@@ -378,7 +378,7 @@ footer {
   margin-bottom: 1rem;
 }
 
-/* Working hours table */
+/* ================ Working hours table */
 .work-hours-table {
   margin-left: auto;
   margin-right: auto;
@@ -393,10 +393,10 @@ footer {
 .work-hours-table td {
   display: table-cell;
 
-  padding-top: 1em;
-  padding-left: 1em;
-  padding-bottom: 1em;
-  padding-right: 1em;
+  padding-top: 0.3em;
+  padding-left: 0.3em;
+  padding-bottom: 0.3em;
+  padding-right: 0.3em;
 
   text-align: left;
 }
@@ -405,7 +405,9 @@ footer {
 .contact-form-section {
   text-align: center;
   padding-top: 1rem;
+  padding-right: 1rem;
   padding-bottom: 1rem;
+  padding-left: 1rem;
 }
 
 .contact-form-section > h2 {
@@ -422,6 +424,7 @@ footer {
   width: 100%;
   max-width: 270px;
 }
+
 /* Contact form input styles */
 .form-input-container {
   position: relative;
@@ -588,6 +591,11 @@ footer {
 
   text-align: center;
 }
+/*
+.contact-section-container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+} */
 
 .contact-section-container > h2 {
   margin-bottom: 1rem;
@@ -596,6 +604,10 @@ footer {
 .contact-section-container > address {
   margin-left: 1em;
   margin-right: 1em;
+}
+
+.contact-section-container-list {
+  width: 250px;
 }
 
 .contacts-section-address-list-item:not(:last-child) {
