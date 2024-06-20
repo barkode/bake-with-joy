@@ -128,14 +128,6 @@ header {
   color: inherit;
 }
 
-.logo {
-  width: 5rem;
-}
-
-.logo-link {
-  line-height: 0;
-}
-
 .header-nav-menu {
   display: inline-block;
 
@@ -658,6 +650,24 @@ footer {
 .google-maps-section {
   display: none;
 }
+
+/* *========== PAGE 404 ========== */
+
+.page-404 {
+  height: 100%;
+}
+/* Add bg image to the page */
+.page-404-container {
+  position: relative;
+  height: 100%;
+
+  background-image: url(../images/404.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*  */
 
 /* *========== RESPONSIVE UI========= */
 
