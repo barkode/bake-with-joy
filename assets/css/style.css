@@ -710,6 +710,7 @@ footer {
   }
   /* ======================== Google maps section*/
   .google-maps-section {
+    display: block;
     padding-bottom: 1rem;
     padding-top: 1rem;
     text-align: center;
