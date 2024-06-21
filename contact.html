@@ -72,54 +72,15 @@
     <!-- Main -->
     <main>
       <div class="contacts-container container">
-        <h1 class="visually-hidden">
-          You always can contact with US. Our contacts
-        </h1>
+        <h1>Get in touch</h1>
+        <p>
+          If you have any questions, feel free to reach out to us. We'd love to
+          hear from you!
+        </p>
         <!-- Get in touch section -->
-        <section class="contact-form-section">
-          <h2>Get in touch</h2>
-          <form action="./confirm.html" method="get" class="contact-form">
-            <div class="form-input-container">
-              <input
-                maxlength="50"
-                required
-                type="text"
-                class="form-input"
-                name="name"
-                id="name"
-              />
-              <label for="name" class="form-label">Name</label>
-            </div>
-            <div class="form-input-container">
-              <input
-                maxlength="50"
-                required
-                type="email"
-                class="form-input"
-                name="email"
-                id="email"
-              />
-              <label for="email" class="form-label">Email</label>
-            </div>
-            <div class="form-textarea-container">
-              <textarea
-                required
-                maxlength="200"
-                name="user-text"
-                id="user-text"
-                placeholder="Your comment"
-                class="contact-form-textarea"
-              ></textarea>
-            </div>
-
-            <button type="submit" class="contact-form-send-button">
-              <span>Send</span>
-            </button>
-          </form>
-        </section>
         <!-- Our address -->
         <section class="contacts-section">
-          <div class="contact-section-container">
+          <div class="contacts-section-container">
             <h2 class="visually-hidden">Our contacts</h2>
             <address>
               <ul class="contacts-section-list">
@@ -128,18 +89,12 @@
                     href="tel:+353001234567"
                     class=".contacts-section-address-list-item-link"
                   >
-                    <div>
-                      <p>Call:</p>
-                      <p>+353(00)1234567</p>
-                    </div>
+                    <span>Phone:</span> +353(00)1234567
                   </a>
                 </li>
                 <li class="contacts-section-address-list-item">
                   <a href="mailto:ourmail@gmail.com">
-                    <div>
-                      <p>Write:</p>
-                      <p>ouremail@gmail.com</p>
-                    </div>
+                    <span>Email:</span> ouremail@gmail.com
                   </a>
                 </li>
                 <li class="contacts-section-address-list-item">
@@ -148,13 +103,8 @@
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <div>
-                      <p>Come:</p>
-                      <p>
-                        1 Block 1, Blackrock Business Park, Carysfort Ave,
-                        Newtown Blackrock, Blackrock, Co. Dublin
-                      </p>
-                    </div>
+                    <span>Address:</span> 1 Block 1, Blackrock Business Park,
+                    Carysfort Ave, Newtown Blackrock, Blackrock, Co. Dublin
                   </a>
                 </li>
               </ul>
@@ -205,6 +155,57 @@
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
           </article>
+        </section>
+        <section class="contacts-form-section">
+          <h2>Send massage</h2>
+          <form action="./confirm.html" method="get" class="contacts-form">
+            <div class="form-input-container">
+              <input
+                maxlength="50"
+                required
+                type="text"
+                class="form-input"
+                name="name"
+                id="name"
+              />
+              <label for="name" class="form-label">Name</label>
+            </div>
+            <div class="form-input-container">
+              <input
+                maxlength="50"
+                required
+                type="email"
+                class="form-input"
+                name="email"
+                id="email"
+              />
+              <label for="email" class="form-label">Email</label>
+            </div>
+            <div class="form-input-container">
+              <input
+                maxlength="50"
+                required
+                type="tel"
+                class="form-input"
+                name="phone"
+                id="phone"
+              />
+              <label for="phone" class="form-label">Phone</label>
+            </div>
+            <div class="form-textarea-container">
+              <textarea
+                required
+                maxlength="200"
+                name="user-text"
+                id="user-text"
+                placeholder="Your comment"
+                class="contacts-form-textarea"
+              ></textarea>
+            </div>
+            <button type="submit" class="contacts-form-send-button">
+              <span>Send</span>
+            </button>
+          </form>
         </section>
       </div>
     </main>
@@ -294,6 +295,5 @@
         </address>
       </div>
     </footer>
-    <!-- Add Font Awesome Kit -->
   </body>
 </html>

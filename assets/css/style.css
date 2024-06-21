@@ -406,7 +406,7 @@ footer {
   z-index: 88;
 }
 
-/* *========== CONTACT =========== */
+/* *========== CONTACTS =========== */
 
 .work-hours-section {
   padding-top: 1rem;
@@ -418,19 +418,19 @@ footer {
 }
 
 /* ===================== Contacts */
-.contact-form-section {
+.contacts-form-section {
   padding-top: 1rem;
 
   text-align: center;
 }
 
-.contact-form-section > h2 {
+.contacts-form-section > h2 {
   margin-bottom: 1rem;
 }
 
 /* Contact Form */
 
-.contact-form {
+.contacts-form {
   display: flex;
   flex-direction: column;
   margin-left: auto;
@@ -439,7 +439,7 @@ footer {
   max-width: 280px;
 }
 
-/* Contact form input styles */
+/* Contacts form input styles */
 .form-input-container {
   position: relative;
   margin-bottom: 1.3rem;
@@ -489,7 +489,7 @@ footer {
   padding-bottom: 1.3rem;
 }
 
-.contact-form-textarea {
+.contacts-form-textarea {
   display: block;
   width: 100%;
   height: 90px;
@@ -506,24 +506,24 @@ footer {
   color: var(--main-color-dark);
 }
 
-.contact-form-textarea::placeholder {
+.contacts-form-textarea::placeholder {
   color: var(--second-color-dark);
   font-size: 18px;
 
   transition: color var(--trans-dur-and-func);
 }
 
-.contact-form-textarea:focus {
+.contacts-form-textarea:focus {
   outline: none;
 }
 
-.contact-form-textarea:focus::placeholder {
+.contacts-form-textarea:focus::placeholder {
   color: transparent;
 }
 
-/* Contact form send Button */
+/* Contacts form send Button */
 
-.contact-form-send-button {
+.contacts-form-send-button {
   text-decoration: none;
   outline: none;
   border: none;
@@ -532,7 +532,7 @@ footer {
   cursor: pointer;
 }
 /* Add styles to contact form button */
-.contact-form-send-button > span {
+.contacts-form-send-button > span {
   display: block;
   position: relative;
   height: auto;
@@ -550,7 +550,7 @@ footer {
   transition: transform var(--trans-dur-and-func);
 }
 
-.contact-form-send-button > span:before {
+.contacts-form-send-button > span:before {
   box-sizing: border-box;
   position: absolute;
   content: '';
@@ -565,7 +565,7 @@ footer {
   transform: translateX(100%);
 }
 
-.contact-form-send-button > span:after {
+.contacts-form-send-button > span:after {
   box-sizing: border-box;
   position: absolute;
   content: '';
@@ -580,11 +580,11 @@ footer {
   transform: translateX(-100%);
 }
 
-.contact-form-send-button > span:hover {
+.contacts-form-send-button > span:hover {
   box-shadow: 0 5px 15px var(--box-shadow-img);
 }
 
-.contact-form-send-button > span:hover:before {
+.contacts-form-send-button > span:hover:before {
   height: 100%;
 
   border-color: var(--main-color-green);
@@ -593,7 +593,7 @@ footer {
   transition: var(--trans-dur-and-func), height var(--trans-dur-and-func) 250ms;
 }
 
-.contact-form-send-button > span:hover:after {
+.contacts-form-send-button > span:hover:after {
   height: 100%;
 
   border-color: var(--main-color-green);
@@ -604,18 +604,19 @@ footer {
 }
 
 /* Our contacts section */
-.contacts-section {
+
+/* .contacts-section {
   padding-top: 1rem;
 
   text-align: center;
-}
+} */
 
 .contact-section-container {
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
-.contact-section-container > h2 {
+.contacts-section-container > h2 {
   margin-bottom: 1rem;
 }
 
@@ -671,7 +672,26 @@ footer {
 /* ======================== Google maps section*/
 
 .google-maps-section {
-  display: none;
+  display: block;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+
+  text-align: center;
+}
+
+.google-maps-container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.google-maps-container h3 {
+  padding-bottom: 1rem;
+}
+
+.contacts-google-maps {
+  height: 40vh;
+  width: 100%;
+  max-width: 280px;
 }
 
 /* *========== PAGE 404 ========== */
@@ -831,31 +851,6 @@ footer {
   .team-list-item {
     width: 264px;
     padding: 0;
-  }
-
-  /* ======================== Google maps section*/
-
-  .google-maps-section {
-    display: block;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-
-    text-align: center;
-  }
-
-  .google-maps-container {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
-  .google-maps-container h3 {
-    padding-bottom: 1rem;
-  }
-
-  .contacts-google-maps {
-    height: 40vh;
-    width: 100%;
-    max-width: 280px;
   }
 }
 
