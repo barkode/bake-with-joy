@@ -91,6 +91,26 @@ a {
 
 .active {
   color: var(--main-color-green);
+  /* ! Delete after position absolute */
+}
+
+.header-nav-menu li {
+  position: relative;
+}
+
+.header-nav-menu li a {
+  display: block;
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+
+.header-nav-menu li a.active::before {
+  position: absolute;
+  content: '';
+  bottom: 12px;
+  left: 0;
+  height: 16px;
+  width: 100%;
   border-bottom: 2px solid var(--main-color-green);
   border-radius: 8px;
 }
@@ -143,9 +163,10 @@ header {
   margin-bottom: 1em;
 }
 
-.header-nav-menu a.active {
+/* ! Try position absolute */
+/* .header-nav-menu a.active {
   padding-bottom: 8px;
-}
+} */
 
 /* Navbar with dropdown toggle */
 .header-nav {
@@ -741,8 +762,9 @@ footer {
   .header-nav-menu > li {
     margin-bottom: 0;
   }
+
   .header-nav-menu > li:not(:first-child) {
-    padding-left: 1rem;
+    margin-left: 1rem;
   }
 
   .nav-toggle-label {
@@ -829,17 +851,14 @@ footer {
 @media screen and (min-width: 992px) {
   /* Header */
 
-  .logo {
-    transition: scale var(--trans-dur-and-func);
-  }
+  /* ! Delete after absolute */
+  /* .header-nav-menu li {
+    transition: color var(--trans-dur-and-func);
+  } */
 
-  .header-nav-menu li {
-    transition: color var(--trans-dur-and-func), scale var(--trans-dur-and-func);
-  }
-
-  .header-nav-menu li:hover {
+  /* .header-nav-menu li:hover {
     color: var(--main-color-green);
-  }
+  } */
 
   /* Footer */
 
