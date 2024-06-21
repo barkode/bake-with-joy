@@ -194,6 +194,18 @@ header {
   background-color: transparent;
 }
 
+/* Phone and email in mobile menu*/
+.header-nav-menu-address {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  text-align: left;
+
+  transform: translate(-50%, -50%);
+}
+
 /* *========== MAIN ========== */
 
 main {
@@ -801,6 +813,10 @@ footer {
   }
 
   .nav-toggle-label {
+    display: none;
+  }
+
+  .header-nav-menu-address {
     display: none;
   }
 
