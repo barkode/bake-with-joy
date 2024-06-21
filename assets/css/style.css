@@ -91,7 +91,7 @@ a {
 }
 
 .active {
-  color: var(--main-color-green);
+  color: var(--second-color-green);
 }
 
 .visually-hidden {
@@ -249,6 +249,8 @@ main {
 
   font-size: 130%;
   background-color: #cfcfbcaa;
+
+  border-radius: 8px;
 }
 
 /* *=========== Traditions ========== */
@@ -309,6 +311,7 @@ main {
 .team-list-item {
   text-align: center;
   background-color: inherit;
+
   border-radius: 8px;
   box-shadow: var(--box-shadow-img);
 }
@@ -479,12 +482,14 @@ footer {
   color: var(--second-color-dark);
 
   transition: all var(--trans-dur-and-func);
-  -moz-transition: all var(--trans-dur-and-func);
-  -webkit-transition: all var(--trans-dur-and-func);
+  /* -moz-transition: all var(--trans-dur-and-func); */
+  /* -webkit-transition: all var(--trans-dur-and-func); */
 }
 
 .form-input:focus ~ .form-label,
-.form-input:valid ~ .form-label {
+.form-input:valid ~ .form-label,
+/* Label is up when the input is invalid but user enter symbol */
+.form-input:invalid:not(:placeholder-shown) ~ .form-label {
   top: -20px;
 
   font-size: 14px;
@@ -634,6 +639,12 @@ footer {
 
 .contacts-section-address-list-item a {
   font-weight: 500;
+
+  transform: color var(--trans-dur-and-func);
+}
+
+.contacts-section-address-list-item a:hover {
+  color: var(--main-color-green);
 }
 
 .contacts-section-address-list-item:not(:last-child) {
@@ -795,6 +806,12 @@ footer {
     margin-left: 1rem;
   }
 
+  .nav-toggle-label {
+    display: none;
+  }
+
+  /* Navbar active page padding */
+
   .header-nav-menu li a {
     display: block;
     padding-top: 18px;
@@ -812,10 +829,7 @@ footer {
     border-radius: 50%;
   }
 
-  .nav-toggle-label {
-    display: none;
-  }
-
+  /* Hide address from menu */
   .header-nav-menu-address {
     display: none;
   }

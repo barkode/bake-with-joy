@@ -167,45 +167,56 @@
           <form action="./confirm.html" method="get" class="contacts-form">
             <div class="form-input-container">
               <input
-                maxlength="50"
-                required
                 type="text"
                 class="form-input"
                 name="name"
                 id="name"
+                placeholder=" "
+                pattern=".*\S.*"
+                title="Need enter one or more chapters"
+                maxlength="50"
+                required
               />
               <label for="name" class="form-label">Name</label>
             </div>
             <div class="form-input-container">
               <input
-                maxlength="50"
-                required
                 type="email"
                 class="form-input"
                 name="email"
                 id="email"
+                placeholder=" "
+                pattern=".*\S.*"
+                title="Need write one or more chapters"
+                maxlength="50"
+                required
               />
               <label for="email" class="form-label">Email</label>
             </div>
             <div class="form-input-container">
               <input
-                maxlength="50"
-                required
                 type="tel"
                 class="form-input"
                 name="phone"
                 id="phone"
+                maxlength="50"
+                placeholder=" "
+                pattern="[0-9]{10}"
+                title="Please, enter ten digits code"
+                required
               />
               <label for="phone" class="form-label">Phone</label>
             </div>
             <div class="form-textarea-container">
               <textarea
-                required
-                maxlength="200"
-                name="user-text"
-                id="user-text"
                 placeholder="Your comment"
+                name="user-text"
                 class="contacts-form-textarea"
+                id="user-text"
+                pattern=".*\S.*"
+                title="Need write one or more chapters"
+                maxlength="200"
+                required
               ></textarea>
             </div>
             <button type="submit" class="contacts-form-send-button">
