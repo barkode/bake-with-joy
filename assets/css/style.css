@@ -204,7 +204,10 @@ main {
 }
 
 .contacts-container {
+  padding-top: 1rem;
+  padding-right: 1rem;
   padding-bottom: 1rem;
+  padding-left: 1rem;
 }
 
 /*=============================== Hero section */
@@ -605,32 +608,47 @@ footer {
 
 /* Our contacts section */
 
-/* .contacts-section {
-  padding-top: 1rem;
-
-  text-align: center;
-} */
-
-.contact-section-container {
-  padding-left: 1rem;
-  padding-right: 1rem;
+.contacts-section {
+  max-width: 380px;
+  padding-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.contacts-section-container > h2 {
+.contacts-section h1 {
+  margin-bottom: 1rem;
+
+  text-align: center;
+  border-bottom: 2px solid var(--second-color-dark);
+  border-radius: 50%;
+}
+
+.contacts-section > p {
   margin-bottom: 1rem;
 }
 
-.contacts-section-list {
-  width: 260px;
+.contacts-section-container {
+  /* padding-top: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem; */
+}
+
+/* .contacts-section-container > h2 {
+  margin-bottom: 1rem;
+} */
+
+/* .contacts-section-list {
+  width: 100%;
+  max-width: 280px;
   margin-left: auto;
   margin-right: auto;
 
   text-align: left;
-}
+} */
 
-.contacts-section-address-list-item-link h3 {
-  font-size: 14px;
-  font-style: normal;
+.contacts-section-address-list-item a {
+  font-weight: 500;
 }
 
 .contacts-section-address-list-item:not(:last-child) {
@@ -799,7 +817,7 @@ footer {
     height: 16px;
     width: 100%;
     border-bottom: 2px solid var(--main-color-green);
-    border-radius: 8px;
+    border-radius: 50%;
   }
 
   .nav-toggle-label {
