@@ -91,28 +91,6 @@ a {
 
 .active {
   color: var(--main-color-green);
-  /* ! Delete after position absolute */
-}
-
-.header-nav-menu li {
-  position: relative;
-}
-
-.header-nav-menu li a {
-  display: block;
-  padding-top: 21px;
-  padding-bottom: 21px;
-}
-
-.header-nav-menu li a.active::before {
-  position: absolute;
-  content: '';
-  bottom: 12px;
-  left: 0;
-  height: 16px;
-  width: 100%;
-  border-bottom: 2px solid var(--main-color-green);
-  border-radius: 8px;
 }
 
 .visually-hidden {
@@ -141,14 +119,26 @@ header {
 }
 
 .header-container {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
 
-  background-color: inherit;
   color: inherit;
+  background-color: inherit;
+}
+/* Make logo over the header */
+.logo {
+  border-radius: 50%;
+}
+
+.logo-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+
+  border-radius: 50%;
 }
 
 .header-nav-menu {
@@ -163,19 +153,13 @@ header {
   margin-bottom: 1em;
 }
 
-/* ! Try position absolute */
-/* .header-nav-menu a.active {
-  padding-bottom: 8px;
-} */
-
 /* Navbar with dropdown toggle */
 .header-nav {
   display: none;
   position: absolute;
-  left: 0;
+  left: -2.5vw;
   top: 100%;
-  width: 100%;
-  padding: 0 1rem;
+  width: 100vw;
 
   text-align: center;
   background-color: var(--second-color-white);
@@ -191,6 +175,14 @@ header {
 
 #nav-toggle {
   display: none;
+}
+
+.nav-toggle-label {
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  margin-left: auto;
 }
 
 .nav-toggle-label > svg {
@@ -749,6 +741,7 @@ footer {
     position: relative;
     width: fit-content;
     padding-right: 1rem;
+    margin-left: auto;
 
     box-shadow: none;
   }
@@ -759,12 +752,30 @@ footer {
     font-size: 130%;
   }
 
-  .header-nav-menu > li {
+  .header-nav-menu li {
+    position: relative;
     margin-bottom: 0;
   }
 
   .header-nav-menu > li:not(:first-child) {
     margin-left: 1rem;
+  }
+
+  .header-nav-menu li a {
+    display: block;
+    padding-top: 21px;
+    padding-bottom: 21px;
+  }
+
+  .header-nav-menu li a.active::before {
+    position: absolute;
+    content: '';
+    bottom: 12px;
+    left: 0;
+    height: 16px;
+    width: 100%;
+    border-bottom: 2px solid var(--main-color-green);
+    border-radius: 8px;
   }
 
   .nav-toggle-label {
@@ -850,15 +861,9 @@ footer {
 
 @media screen and (min-width: 992px) {
   /* Header */
-
-  /* ! Delete after absolute */
-  /* .header-nav-menu li {
-    transition: color var(--trans-dur-and-func);
-  } */
-
-  /* .header-nav-menu li:hover {
-    color: var(--main-color-green);
-  } */
+  .header-nav-menu {
+    font-size: 110%;
+  }
 
   /* Footer */
 
