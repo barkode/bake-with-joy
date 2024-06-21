@@ -531,7 +531,7 @@ footer {
   background: transparent;
   cursor: pointer;
 }
-
+/* Add styles to contact form button */
 .contact-form-send-button > span {
   display: block;
   position: relative;
@@ -739,6 +739,7 @@ footer {
 /* *========== 768px and up ========== */
 /* Media query: tablets and large (768px and up) */
 @media screen and (min-width: 768px) {
+  /* Header navigation */
   .header-nav {
     display: block;
     position: relative;
@@ -752,7 +753,7 @@ footer {
   .header-nav-menu {
     display: flex;
 
-    font-size: 130%;
+    font-size: 120%;
   }
 
   .header-nav-menu li {
@@ -766,8 +767,8 @@ footer {
 
   .header-nav-menu li a {
     display: block;
-    padding-top: 21px;
-    padding-bottom: 21px;
+    padding-top: 18px;
+    padding-bottom: 18px;
   }
 
   .header-nav-menu li a.active::before {
@@ -863,11 +864,6 @@ footer {
 /* Media query: laptop and large (992px and up) */
 
 @media screen and (min-width: 992px) {
-  /* Header */
-  .header-nav-menu {
-    font-size: 110%;
-  }
-
   /* Footer */
 
   .footer-social-net-menu svg:hover {
