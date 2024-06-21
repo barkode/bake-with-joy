@@ -186,8 +186,11 @@ header {
 }
 
 .nav-toggle-label > svg {
+  display: block;
   height: 2rem;
   width: 2rem;
+
+  background-color: transparent;
 }
 
 /* *========== MAIN ========== */
@@ -197,7 +200,7 @@ main {
   flex-grow: 1;
   flex-shrink: 0;
   flex-basis: auto;
-  margin-top: 90px;
+  margin-top: 64px;
 }
 
 .contacts-container {
