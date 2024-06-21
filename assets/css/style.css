@@ -14,7 +14,8 @@
 
 :root {
   /* Maximum width */
-  --max-width: 1300px;
+  --max-width-general: 1300px;
+  --max-width-tablet: 500px;
 
   /* Main site colors */
   --main-bg-img: url(../images/hero-image.webp);
@@ -84,7 +85,7 @@ a {
 
 .container {
   width: 95vw;
-  max-width: var(--max-width);
+  max-width: var(--max-width-general);
   margin-left: auto;
   margin-right: auto;
 }
@@ -600,7 +601,7 @@ footer {
 /* Our contacts section */
 
 .contacts-section {
-  max-width: 380px;
+  max-width: var(--max-width-tablet);
   padding-bottom: 1rem;
   margin-left: auto;
   margin-right: auto;
@@ -638,7 +639,7 @@ footer {
 
 .work-hours-section {
   width: 100%;
-  max-width: 380px;
+  max-width: var(--max-width-tablet);
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 1rem;
@@ -673,26 +674,21 @@ footer {
 /* ======================== Google maps section*/
 
 .google-maps-section {
-  display: block;
+  max-width: var(--max-width-tablet);
   padding-bottom: 1rem;
-  padding-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
 
   text-align: center;
 }
 
-.google-maps-container {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.google-maps-container h3 {
-  padding-bottom: 1rem;
+.google-maps-section h2 {
+  margin-bottom: 1rem;
 }
 
 .contacts-google-maps {
-  height: 40vh;
+  height: 50vh;
   width: 100%;
-  max-width: 280px;
 }
 
 /* *========== PAGE 404 ========== */
@@ -900,7 +896,7 @@ footer {
 @media screen and (min-width: 1200px) {
   .team-list {
     width: 100%;
-    max-width: var(--max-width);
+    max-width: var(--max-width-general);
     column-gap: 2%;
     row-gap: 2%;
   }
