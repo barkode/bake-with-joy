@@ -92,6 +92,7 @@ a {
 
 .active {
   color: var(--second-color-green);
+  font-weight: 600;
 }
 
 .visually-hidden {
