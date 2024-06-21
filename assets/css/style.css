@@ -414,7 +414,10 @@ footer {
 
 /* ===================== Contacts */
 .contacts-form-section {
-  padding-top: 1rem;
+  max-width: var(--max-width-tablet);
+  padding-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
 
   text-align: center;
 }
@@ -428,10 +431,7 @@ footer {
 .contacts-form {
   display: flex;
   flex-direction: column;
-  margin-left: auto;
-  margin-right: auto;
   width: 100%;
-  max-width: 280px;
 }
 
 /* Contacts form input styles */
@@ -448,6 +448,7 @@ footer {
   font-size: 16px;
   border: none;
   border-bottom: 1px solid var(--second-color-dark);
+  border-radius: 8px;
   background: transparent;
 }
 
