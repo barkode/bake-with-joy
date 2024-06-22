@@ -50,9 +50,32 @@ follows:
 
 - #### Color Scheme
 
+![Project used colors](./assets/readme-img/pallete.png)
+
+The color scheme for this project used from
+[Figma design](https://www.figma.com/design/fDlsHwelyuOVsfUmCzm3dA/%D0%A1%D1%83%D1%87%D0%B0%D1%81%D0%BD%D1%8F-%D0%BF%D0%B5%D0%BA%D0%B0%D1%80%D0%BD%D1%8F?node-id=0-1&t=X9B2jIUsiA3Fm8p6-0)
+
 - #### Typography
 
+Geometric sans serif typefaces have always been popular, and with support for
+both the Devanagari and Latin writing systems, Poppins is an internationalist
+addition to the genre. Many of the Latin glyphs (such as the ampersand) are more
+constructed and rationalist than is typical. The font family 'Poppins' was
+downloaded and used from Google Fonts, as it provides an easy-on-the-eye font.
+This font was used for all text across the website.
+
+![Poppins font](./assets/readme-img/poppins-font.png)
+
 - #### Imagery
+
+All images were downloaded from open sources. Pictures for the site were
+downloaded from such resources as [Pixels](https://www.pexels.com/),
+[Pixabay](https://pixabay.com/) and [Unsplash](https://unsplash.com/).
+
+Icons for the project were found on [FontAwesome](https://fontawesome.com/) and
+[FLATICON](https://www.flaticon.com/).
+
+All image sizes were edited using [squoosh](https://squoosh.app/).
 
 ## Technologies Used
 
@@ -60,6 +83,7 @@ follows:
 
 - HTML5
 - CSS3
+- Git
 
 ### Frameworks, Libraries & Programs Used
 
