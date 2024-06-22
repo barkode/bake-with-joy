@@ -1,5 +1,27 @@
 # Bake's JOY
 
+![Am i responsive image](add file path of image here)
+
+[Bake's JOY Live page](https://barkode.github.io/bake-with-joy/)
+
+## Content
+
+- [User Experience (UX)](#user-experience-ux)
+  - [1. First time visitor goals](#1-first-time-visitor-goals)
+  - [2.  Returning visitor goals](#2--returning-visitor-goals)
+  - [3. Frequent user goals](#3-frequent-user-goals)
+  - [Design](#design)
+- [Technologies Used](#technologies-used)
+  - [Languages Used](#languages-used)
+  - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
+- [Testing](#testing)
+- [Testing user stories](#testing-user-stories)
+  - [Further testing](#further-testing)
+- [Bugs](#bugs)
+- [Features](#features)
+- [Deployment](#deployment)
+- [Credits](#credits)
+
 ## User Experience (UX)
 
 - ### User stories
