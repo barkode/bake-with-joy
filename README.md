@@ -106,7 +106,13 @@ Git and Push to GitHub.
 
 GitHub is used to store the projects code after being pushed from Git.
 
-- #### [Balsamic](https://balsamiq.com/wireframes/)
+- #### [Balsamiq](https://balsamiq.com/wireframes/)
+
+Balsamiq was used to create the wireframes during the design process
+
+![Balsamiq Desktop version](./assets/readme-img/desktop.png)
+
+![Balsamiq Mobile version](./assets/readme-img/mobile.png)
 
 - #### [Figma](https://www.figma.com/community)
 
