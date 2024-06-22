@@ -1,8 +1,10 @@
-# Bake's JOY
+# Bake's JOY - A Modern Bakery With Old Traditions
 
-![Am i responsive image](add file path of image here)
+The website presents a modern family bakery in which ancient traditions have been preserved. With the help of the gallery on the website, the buyer can immerse himself in the wonderful world of sweet pastries. We invite you to come to our institution.
 
-[Bake's JOY Live page](https://barkode.github.io/bake-with-joy/)
+![Bake's JOY responsive view](./assets/readme-img/home-page.png)
+
+You can [visit our site here.](https://barkode.github.io/bake-with-joy/)
 
 ## Content
 
