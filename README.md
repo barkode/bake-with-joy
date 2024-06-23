@@ -57,17 +57,26 @@ follows:
 
 - ### Website structure
 
-The site consists of 5 pages. The navigation menu is available on all pages. The
-home page presents the main idea of ​​the site. On the second page, you can see
-a gallery presenting examples of products. The third page is a page with
-contacts and a feedback form. The last two pages are service pages. One of them
-shows a message that the form has been completed, and the other reports that an
-error has occurred. The home page is the default download page. The header is
-fixed on the page, so it is available to the client at any time. The logo is
-located in the upper left corner and the navigation menu is located in the right
-corner. On devices with a small screen, this navigation menu changes to a
-drop-down menu. Also on the site there is a lower part - a footer. With its
-help, the client can go to the page of one of the social networks.
+The site consists of 5 pages. The navigation menu is available on all pages.
+
+- The home page presents the main idea of ​​the site.
+
+- On the second page, you can see a gallery presenting examples of products.
+
+- The third page is a page with contacts and a feedback form.
+
+- The last two pages are service pages. One of them shows a message that the
+  form has been completed, and the other reports that an error has occurred. The
+  home page is the default download page.
+
+- The header is fixed on the page, so it is available to the client at any time.
+
+- The logo is located in the upper left corner and the navigation menu is
+  located in the right corner. On devices with a small screen, this navigation
+  menu changes to a drop-down menu.
+
+- Also on the site there is a lower part - a footer. With its help, the client
+  can go to the page of one of the social networks.
 
 [Back to top](#content)
 
@@ -106,7 +115,7 @@ was used for all text across the website.
 
 - #### Imagery
 
-All images were downloaded from open sources. Pictures for the site were
+All images were downloaded from free resources. Pictures for the site were
 downloaded from such resources as [Pixels](https://www.pexels.com/),
 [Pixabay](https://pixabay.com/) and [Unsplash](https://unsplash.com/).
 
@@ -160,9 +169,14 @@ Figma was used to find inspiration.
 
 ## Features
 
-- ### A favicon
+The site contains 5 pages. All pages have a favicon, logo, navigation menu and
+footer.
 
-- ### A navigation bar
+- ### A Favicon
+
+![Favivon image](./assets/readme-img/favicon.png)
+
+- ### A Navigation Menu
 
 ## Testing
 
