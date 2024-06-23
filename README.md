@@ -29,6 +29,10 @@ You can [visit our site here.](https://barkode.github.io/bake-with-joy/)
   - [Navigation Menu](#navigation-menu)
   - [Footer](#footer)
   - [Home Page](#home-page)
+  - [Gallery Page](#gallery-page)
+  - [Contact Page](#contact-page)
+  - [Error Page](#error-page)
+  - [Confirmation Page](#confirmation-page)
 - [Technologies and Media](#technologies-used)
 - [Deployment](#deployment)
   - [Deployment to Github Pages](#github-pages)
@@ -247,6 +251,8 @@ is currently on.
 For small screens, such as mobile phones, the navigation bar has been changed
 for greater user convenience.
 
+![Mobile choose email sender](./assets/readme-img/Mobile_screen_email_phone.png)
+
 All links are interactive and used for the convenience of the client. If you
 type in a phone number with me, the phone will offer the client to make a call
 using the phone.
@@ -256,6 +262,8 @@ using the phone.
 ### Footer
 
 ![Bale's JOY Footer image](./assets/readme-img/footer.png)
+
+![Bale's JOY Footer image](./assets/readme-img/footer_act.png)
 
 A link to the bakery's social networks was placed in the footer. For the
 convenience of the user, the technique of highlighting the icons when pointing
@@ -269,7 +277,45 @@ On the main page, the client can see the logo behind the slogan. Next, he can
 read information about our values. Below is a section that shows the chefs'
 names.
 
-![Desktop full screen](./assets/readme-img/desktop_full_screen.png)
+- On Desktop
+
+![Desktop full screen](./assets/readme-img/home_page_desktop.png)
+
+The team gallery is adaptive. And depending on the width of the screen, it can
+show 1, 2 or 4 elements per line.
+
+- On Tablet
+
+![Tablet full screen](./assets/readme-img/home_page_tablet.png)
+
+- On Mobile
+
+![Mobile full screen](./assets/readme-img/home_page_mobile.png)
+
+[Back to top](#content)
+
+### Gallery page
+
+The gallery page shows examples of delicious baked goods. The gallery is
+interactive. If the client likes a picture, he can download the full version of
+the picture. Thanks to the
+[LogRocket](https://blog.logrocket.com/responsive-image-gallery-css-flexbox/)
+portal, it was possible to make a responsive gallery that adjusts to the width
+of the screen.
+
+- On
+
+[Back to top](#content)
+
+### Contact page
+
+[Back to top](#content)
+
+### Error page
+
+[Back to top](#content)
+
+### Confirmation page
 
 [Back to top](#content)
 
