@@ -229,13 +229,22 @@ effect as if the logo is flying.
 
 ![Bale's JOY Navigation Menu image](./assets/readme-img/navmenu.png)
 
+In the navigation menu, the technique of changing color and adding an underline
+with rounded edges for the active page was used. This was done for the
+convenience of the customer. So that the client always understands which page he
+is currently on.
+
 [Back to top](#content)
 
 - ### Footer
 
-[Back to top](#content)
-
 ![Bale's JOY Footer image](./assets/readme-img/footer.png)
+
+A link to the bakery's social networks was placed in the footer. For the
+convenience of the user, the technique of highlighting the icons when pointing
+with the mouse was used.
+
+[Back to top](#content)
 
 ## Testing
 
