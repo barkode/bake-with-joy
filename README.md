@@ -21,14 +21,21 @@ You can [visit our site here.](https://barkode.github.io/bake-with-joy/)
   - [Color Scheme](#color-scheme)
   - [Typography](#typography)
   - [Media content](#imagery)
+  - [Accessibility](#accessibility)
 - [Features](#features)
+  - [Favicon](#favicon)
+  - [Header](#header)
+  - [Logo](#logo)
+  - [Navigation Menu](#navigation-menu)
+  - [Footer](#footer)
 - [Technologies and Media](#technologies-used)
-- [Deployment, Fork and Clone](#deployment-fork-and-clone)
-  - [Deployment](#deployment)
-  - [Fork](#how-to-fork)
-  - [Clone](#how-to-clone)
+- [Deployment](#deployment)
+  - [Deployment to Github pages](#github-pages)
+  - [Fork repository](#forking-the-github-repository)
+  - [Clone repository](#making-a-local-clone)
 - [Testing](#testing)
-- [Acknowledgments](#acknowledgments)
+- [Future improvements](#future-improvements)
+- [Credits](#credits)
 
 ## User Experience (UX)
 
@@ -126,6 +133,17 @@ All image sizes were edited using [squoosh](https://squoosh.app/).
 
 [Back to top](#content)
 
+- #### Accessibility
+
+The following has been done to ensure that the website is as accessible friendly
+as possible.
+
+- Using semantic HTML.
+- Using descriptive alt attributes on images on the site.
+- Ensuring that there is a sufficient color contrast throughout the site.
+
+[Back to top](#content)
+
 ## Technologies Used
 
 ### Languages Used
@@ -172,11 +190,35 @@ Figma was used to find inspiration.
 The site contains 5 pages. All pages have a favicon, logo, navigation menu and
 footer.
 
-- ### A Favicon
+- ### Favicon
 
-![Favivon image](./assets/readme-img/favicon.png)
+![Bale's JOY Favicon image](./assets/readme-img/favicon.png)
 
-- ### A Navigation Menu
+- ### Header
+
+![Bale's JOY Header image](./assets/readme-img/header.png)
+
+[Back to top](#content)
+
+- ### Logo
+
+![Bale's JOY Logo image](./assets/readme-img/logo-1.png)
+
+![Bale's JOY Logo image](./assets/readme-img/logo-2.png)
+
+[Back to top](#content)
+
+- ### Navigation Menu
+
+![Bale's JOY Navigation Menu image](./assets/readme-img/navmenu.png)
+
+[Back to top](#content)
+
+- ### Footer
+
+[Back to top](#content)
+
+![Bale's JOY Footer image](./assets/readme-img/footer.png)
 
 ## Testing
 
@@ -188,20 +230,25 @@ footer.
 
 ## Deployment
 
-- Github pages
+- ### Github pages
+
   - This project was deployed to GitHub Pages using the following steps
+
     - Log in to GitHub and locate the GitHub Repository
     - At the top of the Repository (not top of page), locate the "Settings"
       Button on the menu.
     - Scroll down the Settings page until you locate the "GitHub Pages" Section.
-    - Under "Source", click the dropdown called "None" and select "Master
-      Branch".
+    - Under "Source", click the dropdown called "None" and select "Main Branch".
     - The page will automatically refresh.
     - Scroll back down through the page to locate the now published site link in
       the "GitHub Pages" section.
     - live link for the page can be found here
       [Bake's JOY](https://barkode.github.io/bake-with-joy/)
-- Forking the GitHub Repository
+
+[Back to top](#content)
+
+- ### Forking the GitHub Repository
+
   - By forking the GitHub Repository we make a copy of the original repository
     on our GitHub account to view and/or make changes without affecting the
     original repository by using the following steps
@@ -210,7 +257,11 @@ footer.
     Button on the menu, locate the "Fork" Button.
   - You should now have a copy of the original repository in your GitHub
     account.
-- Making a Local Clone
+
+[Back to top](#content)
+
+- ### Making a Local Clone
+
   - Log in to GitHub and locate the GitHub Repository
   - Under the repository name, click "Clone or download".
   - To clone the repository using HTTPS, under "Clone with HTTPS", copy the
@@ -221,6 +272,12 @@ footer.
   - Type git clone, and then paste the URL you copied in Step 3.
     - $ git clone <https://github.com/YOUR-USERNAME/YOUR-REPOSITORY>
   - Press Enter. Your local clone will be created.
+
+[Back to top](#content)
+
+## Future improvements
+
+[Back to top](#content)
 
 ## Credits
 
@@ -250,3 +307,5 @@ footer.
   - my favicon I found on [FlatIcon](https://www.flaticon.com/)
   - for optimize images was used [Squoosh](https://squoosh.app/) service
 - Acknowledgment
+
+[Back to top](#content)
