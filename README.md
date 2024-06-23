@@ -41,9 +41,14 @@ You can [visit our site here.](https://barkode.github.io/bake-with-joy/)
 - [Testing](#testing)
   - [Testing User Stories](#testing-user-stories)
   - [HTML Validation](#html-validation)
+    - [Home Page](#home-page)
+    - [Gallery Page](#gallery-page)
+    - [Contact Page](#contact-page)
+    - [Error Page](#error-page)
+    - [Confirmation Page](#confirmation-page)
   - [CSS Validation](#css-validation)
   - [Lighthouse Performance Tests](#lighthouse-performance-tests)
-  - [Manual Testing]()
+  - [Manual Testing](#manual-testing)
 - [Future Improvements](#future-improvements)
 - [Credits](#credits)
 
@@ -376,13 +381,176 @@ page is also made taking into account different device widths.
 
 ### HTML Validation
 
+- #### Home Page
+
+![HTML Validator OK](./assets/readme-img/home_page_html_validator_ok.png)
+
+The document has been verified. No errors were found. Non-critical comments were
+found.
+
+![Home Page HTML Validator Info](./assets/readme-img/home_page_http_validator_warn.png)
+
+All informational messages refer to the trailing slash at the end of empty
+elements. This is a feature of the Prettier expansion.
+
+[Back to top](#content)
+
+- #### Gallery Page
+
+![Gallery HTML Validator Page](./assets/readme-img/gallery_page_html_validator_ok.png)
+
+The document has been verified. No errors were found. Non-critical comments were
+found.
+
+![Gallery HTML Validator Page](./assets/readme-img/gallery_html_validator_info.png)
+
+All informational messages refer to the trailing slash at the end of empty
+elements. This is a feature of the Prettier expansion.
+
+[Back to top](#content)
+
+- #### Contact Page
+
+![Contact HTML Validator Page](./assets/readme-img/contact_page_html_validator_ok.png)
+
+The document has been verified. No errors were found. Non-critical comments were
+found.
+
+![Contact HTML Validator Page](./assets/readme-img/contact_page_html_validator_ingo.png)
+
+All informational messages refer to the trailing slash at the end of empty
+elements. This is a feature of the Prettier expansion.
+
+[Back to top](#content)
+
+- #### Error Page
+
+![Error HTML Validator Page](./assets/readme-img/error_page_html_validation_ok.png)
+
+The document has been verified. No errors were found. Non-critical comments were
+found.
+
+![Error HTML Validator Page](./assets/readme-img/error_page_html_validation_info.png)
+
+All informational messages refer to the trailing slash at the end of empty
+elements. This is a feature of the Prettier expansion.
+
+[Back to top](#content)
+
+- #### Confirmation Page
+
+![Confirmation HTML Validator Page](./assets/readme-img/confirm_page_html_validator_ok.png)
+
+The document has been verified. No errors were found. Non-critical comments were
+found.
+
+![Confirmation HTML Validator Page](./assets/readme-img/confirm_page_html_validator_info.png)
+
+All informational messages refer to the trailing slash at the end of empty
+elements. This is a feature of the Prettier expansion.
+
 ### CSS Validation
+
+![CSS Validator No Error](./assets/readme-img/css-validation.png)
+
+The CSS code was validated using the
+[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator.html.en)
+to ensure there are no errors and it adheres to best practices.
+
+![CSS Validator Warnings](./assets/readme-img/css-warnings.png)
+
+Most of these warnings are related to CSS variables (custom properties) not
+being statically checked.
+
+[Back to top](#content)
 
 ### Lighthouse Performance Tests
 
-### Further testing
+#### Desktop
+
+- Home Page
+
+![Home Page Lighthouse](./assets/readme-img/home_page_lh_desk.png)
+
+- Gallery Page
+
+![Gallery Page Lighthouse]()
+
+- Contact Page
+
+![Contact Page Lighthouse](./assets/readme-img/contact_page_lh_desk.png)
+
+- Error Page
+
+![Error Page Lighthouse](./assets/readme-img/error_page_lh_desk.png)
+
+- Confirmation Page
+
+![Confirmation Page Lighthouse](./assets/readme-img/confirm_page_lh_desk.png)
+
+[Back to top](#content)
+
+#### Mobile
+
+- Home Page
+
+![Home Page Lighthouse](./assets/readme-img/home_page_lh_mobi.png)
+
+- Gallery Page
+
+![Gallery Page Lighthouse]()
+
+- Contact Page
+
+![Contact Page Lighthouse](./assets/readme-img/contact_page_lh_mobi.png)
+
+- Error Page
+
+![Error Page Lighthouse](./assets/readme-img/error_page_lh_mobi.png)
+
+- Confirmation Page
+
+![Confirmation Page Lighthouse](./assets/readme-img/confirm_page_lh_mobi.png)
+
+[Back to top](#content)
+
+### Further Testing
+
+### Manual Testing
+
+Below is a list of all manual testing conducted, with pass/fail values and
+comments (where necessary).
+
+| Page Feature                      | Action(s)                                                     | Expected result                                                                                                                | Tested | Passed/Failed | Comments                                                                                                                                                     |
+| --------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ------ | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Navbar / Menu                     | Underlined page title for ‘active’ page                       | Currently viewed page is underlined (doesn’t include Response page)                                                            | Yes    | Pass          |                                                                                                                                                              |
+| All Pages                         |                                                               |                                                                                                                                |        |               |                                                                                                                                                              |
+| Navbar / Menu                     | Hover effect on desktop underlines focused page               | Item underlined when hover with cursor                                                                                         | Yes    | Pass          |                                                                                                                                                              |
+| Navbar / Menu                     | Mobile menu dropdown                                          | Menu dropdown opens when clicked                                                                                               | Yes    | Pass          |                                                                                                                                                              |
+| Logo                              | Logo returns to home page                                     | When clicking logo, user returned to home (index.html) page                                                                    | Yes    | Pass          |                                                                                                                                                              |
+| Home                              | ‘Home’ returns to home page                                   | Clicking Home returned to home (index.html) page                                                                               | Yes    | Pass          |                                                                                                                                                              |
+| Seasonal Suggestions              | ‘Seasonal Suggestions’ navigates to seasonal suggestions page | Clicking seasonal suggestions navigates to Season Suggestions (seasonal-suggestions.html) page                                 | Yes    | Pass          |                                                                                                                                                              |
+| Footer links                      | Social links navigate to homepages                            | Clicking link icons (Facebook, Twitter, Instagram, Youtube) open links in new tab                                              | Yes    | Pass          |                                                                                                                                                              |
+| External links                    | Click (any/all) external links                                | Clicking external links open in new tab                                                                                        | Yes    | Pass          |                                                                                                                                                              |
+| All buttons                       | Hover cursor display                                          | When hovering any button or link, cursor pointer displays                                                                      | Yes    | Pass          |                                                                                                                                                              |
+| Alt-text                          | Alt-text display when image source broken                     | When image source is broken, alt-text displays a description of missing image                                                  | Yes    | Pass          | Although the alt-text does display, the border-radius of the image (50%) causes the alt-text not to be fully readable.                                       |
+| Home & Seasonal Suggestions Pages |                                                               |                                                                                                                                |        |
+| Subscribe                         | ‘Join’ page navigates to Subscribe page                       | Clicking Join navigates to form (response.html) page                                                                           | Yes    | Pass          |                                                                                                                                                              |
+| Video                             | Playback on video                                             | Video plays when clicked, controls for volume and fullscreen work                                                              | Yes    | Pass          |                                                                                                                                                              |
+| Subscribe button                  | Click subscribe button navigates to subscribe page            | Clicking subscribe button in Subscribe section navigates to Join page (subscribe.html)                                         | Yes    | Pass          |                                                                                                                                                              |
+| Top’ button                       | Click ‘top’ button                                            | Clicking ‘Top’ button when scrolled redirects to anchor at top of page                                                         | Yes    | Pass          | Visibly works on all pages where screen display allows scrolling.                                                                                            |
+| Subscribe Page                    |                                                               |                                                                                                                                |        |               |                                                                                                                                                              |
+| Subscribe form                    | All fields entered=Yes                                        | All form entry fields have been filled successfully, button navigates to response.html and ‘Thank you for subscribing’ message | Yes    | Pass          |                                                                                                                                                              |
+| Subscribe form                    | All fields entered=No                                         | Failure to fill all forms correctly prevents submission button from executing task                                             | Yes    | Pass          | User is issued with ‘Please fill in this field’ message indicating missing field, OR ‘Please include an ‘@‘ in the email address. ‘Input’ is missing an ‘@‘. |
+| Radio button                      | Field pre-selected                                            | ‘Beginner’ option in radio buttons is pre selected when opening the form page                                                  | Yes    | Pass          |                                                                                                                                                              |
+| Response Page                     |                                                               |                                                                                                                                |        |               |                                                                                                                                                              |
+| Take me home button               | Click ‘Take me home’ button on response.html page             | When clicked, user is redirected to Home page                                                                                  | Yes    | Pass          |                                                                                                                                                              |
+
+[Back to top](#content)
 
 ## Bugs
+
+[Back to top](#content)
 
 ## Deployment
 
