@@ -48,6 +48,8 @@ You can [visit our site here.](https://barkode.github.io/bake-with-joy/)
     - [Confirmation Page](#confirmation-page)
   - [CSS Validation](#css-validation)
   - [Lighthouse Performance Tests](#lighthouse-performance-tests)
+    - [Desktop](#desktop)
+    - [Mobile](#mobile)
   - [Manual Testing](#manual-testing)
 - [Future Improvements](#future-improvements)
 - [Credits](#credits)
@@ -79,6 +81,8 @@ follows:
 
 The design was built on the principle of simplicity. The site should be simple
 and at the same time user-friendly.
+
+[Back to top](#content)
 
 ### Website structure
 
@@ -219,6 +223,8 @@ footer.
 An icon suitable for the subject was found on the
 [FlatIcon](https://www.flaticon.com/free-icon/croissant_786967?term=croissant&page=2&position=5&origin=search&related_id=786967)
 resource.
+
+[Back to top](#content)
 
 ### Header
 
@@ -449,6 +455,8 @@ found.
 All informational messages refer to the trailing slash at the end of empty
 elements. This is a feature of the Prettier expansion.
 
+[Back to top](#content)
+
 ### CSS Validation
 
 ![CSS Validator No Error](./assets/readme-img/css-validation.png)
@@ -472,17 +480,25 @@ being statically checked.
 
 ![Home Page Lighthouse](./assets/readme-img/home_page_lh_desk.png)
 
+[Back to top](#content)
+
 - Gallery Page
 
 ![Gallery Page Lighthouse]()
+
+[Back to top](#content)
 
 - Contact Page
 
 ![Contact Page Lighthouse](./assets/readme-img/contact_page_lh_desk.png)
 
+[Back to top](#content)
+
 - Error Page
 
 ![Error Page Lighthouse](./assets/readme-img/error_page_lh_desk.png)
+
+[Back to top](#content)
 
 - Confirmation Page
 
@@ -496,17 +512,25 @@ being statically checked.
 
 ![Home Page Lighthouse](./assets/readme-img/home_page_lh_mobi.png)
 
+[Back to top](#content)
+
 - Gallery Page
 
 ![Gallery Page Lighthouse]()
+
+[Back to top](#content)
 
 - Contact Page
 
 ![Contact Page Lighthouse](./assets/readme-img/contact_page_lh_mobi.png)
 
+[Back to top](#content)
+
 - Error Page
 
 ![Error Page Lighthouse](./assets/readme-img/error_page_lh_mobi.png)
+
+[Back to top](#content)
 
 - Confirmation Page
 
@@ -518,33 +542,18 @@ being statically checked.
 
 ### Manual Testing
 
-Below is a list of all manual testing conducted, with pass/fail values and
-comments (where necessary).
+All buttons and links were tested during website creation. The final test was
+done. The result of the final test is given in the table below.
 
-| Page Feature                      | Action(s)                                                     | Expected result                                                                                                                | Tested | Passed/Failed | Comments                                                                                                                                                     |
-| --------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ------ | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Navbar / Menu                     | Underlined page title for ‘active’ page                       | Currently viewed page is underlined (doesn’t include Response page)                                                            | Yes    | Pass          |                                                                                                                                                              |
-| All Pages                         |                                                               |                                                                                                                                |        |               |                                                                                                                                                              |
-| Navbar / Menu                     | Hover effect on desktop underlines focused page               | Item underlined when hover with cursor                                                                                         | Yes    | Pass          |                                                                                                                                                              |
-| Navbar / Menu                     | Mobile menu dropdown                                          | Menu dropdown opens when clicked                                                                                               | Yes    | Pass          |                                                                                                                                                              |
-| Logo                              | Logo returns to home page                                     | When clicking logo, user returned to home (index.html) page                                                                    | Yes    | Pass          |                                                                                                                                                              |
-| Home                              | ‘Home’ returns to home page                                   | Clicking Home returned to home (index.html) page                                                                               | Yes    | Pass          |                                                                                                                                                              |
-| Seasonal Suggestions              | ‘Seasonal Suggestions’ navigates to seasonal suggestions page | Clicking seasonal suggestions navigates to Season Suggestions (seasonal-suggestions.html) page                                 | Yes    | Pass          |                                                                                                                                                              |
-| Footer links                      | Social links navigate to homepages                            | Clicking link icons (Facebook, Twitter, Instagram, Youtube) open links in new tab                                              | Yes    | Pass          |                                                                                                                                                              |
-| External links                    | Click (any/all) external links                                | Clicking external links open in new tab                                                                                        | Yes    | Pass          |                                                                                                                                                              |
-| All buttons                       | Hover cursor display                                          | When hovering any button or link, cursor pointer displays                                                                      | Yes    | Pass          |                                                                                                                                                              |
-| Alt-text                          | Alt-text display when image source broken                     | When image source is broken, alt-text displays a description of missing image                                                  | Yes    | Pass          | Although the alt-text does display, the border-radius of the image (50%) causes the alt-text not to be fully readable.                                       |
-| Home & Seasonal Suggestions Pages |                                                               |                                                                                                                                |        |
-| Subscribe                         | ‘Join’ page navigates to Subscribe page                       | Clicking Join navigates to form (response.html) page                                                                           | Yes    | Pass          |                                                                                                                                                              |
-| Video                             | Playback on video                                             | Video plays when clicked, controls for volume and fullscreen work                                                              | Yes    | Pass          |                                                                                                                                                              |
-| Subscribe button                  | Click subscribe button navigates to subscribe page            | Clicking subscribe button in Subscribe section navigates to Join page (subscribe.html)                                         | Yes    | Pass          |                                                                                                                                                              |
-| Top’ button                       | Click ‘top’ button                                            | Clicking ‘Top’ button when scrolled redirects to anchor at top of page                                                         | Yes    | Pass          | Visibly works on all pages where screen display allows scrolling.                                                                                            |
-| Subscribe Page                    |                                                               |                                                                                                                                |        |               |                                                                                                                                                              |
-| Subscribe form                    | All fields entered=Yes                                        | All form entry fields have been filled successfully, button navigates to response.html and ‘Thank you for subscribing’ message | Yes    | Pass          |                                                                                                                                                              |
-| Subscribe form                    | All fields entered=No                                         | Failure to fill all forms correctly prevents submission button from executing task                                             | Yes    | Pass          | User is issued with ‘Please fill in this field’ message indicating missing field, OR ‘Please include an ‘@‘ in the email address. ‘Input’ is missing an ‘@‘. |
-| Radio button                      | Field pre-selected                                            | ‘Beginner’ option in radio buttons is pre selected when opening the form page                                                  | Yes    | Pass          |                                                                                                                                                              |
-| Response Page                     |                                                               |                                                                                                                                |        |               |                                                                                                                                                              |
-| Take me home button               | Click ‘Take me home’ button on response.html page             | When clicked, user is redirected to Home page                                                                                  | Yes    | Pass          |                                                                                                                                                              |
+| Feature                           | Expectation                                                                     | Action                                                        | Result                                       |
+| :-------------------------------- | :------------------------------------------------------------------------------ | :------------------------------------------------------------ | :------------------------------------------- |
+| Navigation menu links             | Transfers the client to the appropriate page                                    | Click the link                                                | The corresponding page is loaded             |
+| Stylized buttons and links        | Change color when hovering over them                                            | Hover over a button or link                                   | The color changes                            |
+| "Send" message button             | Submits the form                                                                | Click the button                                              | The form has been sent                       |
+| Submit the form with blank fields | The form cannot be submitted with empty fields. Show a tooltip to the user      | The submission was verified with empty fields                 | The form was not submitted. A hint was shown |
+| Submitted form page               | Show a page with a message to the user that the form was submitted successfully | Form submitted                                                | The page showed up                           |
+| Social media links                | Links to social networks should open externally                                 | Clicked on the social network icons at the bottom of the page | The link will open in a new tab              |
+| Opening the page with an error    | Opening the page with an error                                                  | Enter a non-existent page in the address bar                  | An error page has opened                     |
 
 [Back to top](#content)
 
