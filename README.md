@@ -53,6 +53,9 @@ You can [visit our site here.](https://barkode.github.io/bake-with-joy/)
   - [Manual Testing](#manual-testing)
 - [Future Improvements](#future-improvements)
 - [Credits](#credits)
+  - [Code & Content](#code--content)
+  - [Media](#media)
+  - [Acknowledgment](#acknowledgment)
 
 ## User Experience (UX)
 
@@ -360,6 +363,15 @@ created using the [Google Maps](https://www.google.ie/maps/preview) service.
 For the convenience of customers, a feedback form has been integrated into the
 site.
 
+![Submit form validation](./assets/readme-img/Form%20testing.png)
+
+Validation of entered data has been added to the form. The form cannot be
+submitted with empty fields. In the e-mail field, you must enter words separated
+by the @ sign. Only numbers can be entered in the phone number field. The number
+of digits is 10. The implementation and part of the code was taken from the
+[ZelL Liev](https://medium.com/free-code-camp/how-to-check-if-an-input-is-empty-with-css-1a83715f9f3e)
+article.
+
 [Back to top](#content)
 
 ### Error page
@@ -538,8 +550,6 @@ being statically checked.
 
 [Back to top](#content)
 
-### Further Testing
-
 ### Manual Testing
 
 All buttons and links were tested during website creation. The final test was
@@ -554,6 +564,19 @@ done. The result of the final test is given in the table below.
 | Submitted form page               | Show a page with a message to the user that the form was submitted successfully | Form submitted                                                | The page showed up                           |
 | Social media links                | Links to social networks should open externally                                 | Clicked on the social network icons at the bottom of the page | The link will open in a new tab              |
 | Opening the page with an error    | Opening the page with an error                                                  | Enter a non-existent page in the address bar                  | An error page has opened                     |
+
+![Test the form](./assets/readme-img/Form%20testing.png)
+
+[Back to top](#content)
+
+### Further Testing
+
+In the future, it is possible to check the functionality of the site for further
+optimization.
+
+Testing on more devices to find optimal values.
+
+Using more devices to determine optimal color shades.
 
 [Back to top](#content)
 
@@ -612,32 +635,76 @@ done. The result of the final test is given in the table below.
 
 ## Credits
 
-- Code & Content
-  - I give credits to [Stack overflow](https://www.stackoverflow.com/),
-    [MDN Web Docs](https://developer.mozilla.org/en-US/),
-    [W3 Schools](https://www.w3schools.com/) &
-    [LogRocket](https://blog.logrocket.com/) for helping me resolve issues while
-    coding through
-  - inspiration for my subject and color pallet goes from
-    [Figma](https://www.figma.com/design/fDlsHwelyuOVsfUmCzm3dA/%D0%A1%D1%83%D1%87%D0%B0%D1%81%D0%BD%D1%8F-%D0%BF%D0%B5%D0%BA%D0%B0%D1%80%D0%BD%D1%8F?node-id=0-1&t=VeNx8IUKIo2EOdRB-0)
-  - Love running project from [Code Institute](https://codeinstitute.net/ie/)
-    inspired me for the Gallery page
-  - credits for hover effect over images and other effects for elements goes to
-    [Brandsmen](https://thebrandsmen.com/css-image-hover-effects/) and
-    [UIVerse](https://uiverse.io/)
-  - credits for gallery goes from
-    [LogRocket](https://blog.logrocket.com/responsive-image-gallery-css-flexbox/)
-  - [Google Maps](https://www.google.ie/maps/)was used to show the location
-- Media
-  - credit for my images across the website goes to
-    [Unsplash](https://unsplash.com/) and [Pexell](https://www.pexels.com/)
-    which I used across my website
-  - for my logo I give credit to [app-logo](https://app.logo.com/) for easily
-    generating my idea and automatic creating logo for my website
-  - instructions how to create my favicon came from
-    [MDN Web Docs](https://developer.mozilla.org/en-US/)
-  - my favicon I found on [FlatIcon](https://www.flaticon.com/)
-  - for optimize images was used [Squoosh](https://squoosh.app/) service
-- Acknowledgment
+### Code & Content
+
+- [Stack overflow](https://www.stackoverflow.com/),
+  [MDN Web Docs](https://developer.mozilla.org/en-US/),
+  [W3 Schools](https://www.w3schools.com/),
+  [LogRocket](https://blog.logrocket.com/)
+
+  Help in solving problems. Help in implementing best practices. Search for the
+  best practices. Good documentation.
+
+- [Figma](https://www.figma.com/design/fDlsHwelyuOVsfUmCzm3dA/%D0%A1%D1%83%D1%87%D0%B0%D1%81%D0%BD%D1%8F-%D0%BF%D0%B5%D0%BA%D0%B0%D1%80%D0%BD%D1%8F?node-id=0-1&t=VeNx8IUKIo2EOdRB-0)
+
+  Figma as a search platform for inspiration and as a graphic editor.
+
+- Love running project from [Code Institute](https://codeinstitute.net/ie/)
+
+  inspired me for the Gallery page
+
+- [UIVerse](https://uiverse.io/)
+
+  credits for hover effect over images and other effects for elements goes to
+
+- [LogRocket](https://blog.logrocket.com/responsive-image-gallery-css-flexbox/)
+
+  credits for gallery goes from
+
+- [Google Maps](https://www.google.ie/maps/)
+
+  Was used to show the location
+
+- [ZelL Liev](https://medium.com/free-code-camp/how-to-check-if-an-input-is-empty-with-css-1a83715f9f3e)
+
+  A piece of code to implement form validation using CSS and regular
+  expressions.
+
+[Back to top](#content)
+
+### Media
+
+- [Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/)
+
+  Images on the site are taken from these resources.
+
+- [app-logo](https://app.logo.com/)
+
+  the resource is used to generate an idea and automatically create a logo for
+  the site
+
+- [MDN Web Docs](https://developer.mozilla.org/en-US/)
+
+  Instructions on how to connect the favicon to the site have been taken.
+
+- [FlatIcon](https://www.flaticon.com/)
+
+  The icon for the site was found on this resource.
+
+- [Squoosh](https://squoosh.app/)
+
+  The service was used to optimize pictures
+
+[Back to top](#content)
+
+### Acknowledgment
+
+- I want to thank my tutor [Marko Tot](https://github.com/tmarkec) for his daily
+  care and help. For the desire to create a favorable atmosphere for learning
+  and creativity.
+- I would like to thank my mentor, Anthony Agwe, for his helpful advice on
+  writing the project.
+- I would also like to thank the entire Code Institute and Kerry College for
+  giving me the opportunity to study and participate in this project.
 
 [Back to top](#content)
