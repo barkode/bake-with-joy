@@ -582,6 +582,13 @@ Using more devices to determine optimal color shades.
 
 ## Bugs
 
+- When creating the site, it was difficult to come up with a beautiful and
+  simple site design. I looked at many sites for inspiration.
+- In the process of writing the code, it was difficult to choose a simple and
+  beautiful effect that would fit the theme of the site.
+- During performance testing, it was found that all images needed to be reduced
+  in size.
+
 [Back to top](#content)
 
 ## Deployment
