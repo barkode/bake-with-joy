@@ -683,6 +683,18 @@ Using more devices to determine optimal color shades.
   A piece of code to implement form validation using CSS and regular
   expressions.
 
+- [freeformatter.com](https://www.freeformatter.com/css-minifier.html#before-output)
+
+  It was used to minimize css
+
+- [W3C Markup Validator](https://validator.w3.org/)
+
+  This service was used to validate HTML files
+
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+  This service was used to validate CSS files
+
 [Back to top](#content)
 
 ### Media
