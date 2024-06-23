@@ -20,7 +20,7 @@ You can [visit our site here.](https://barkode.github.io/bake-with-joy/)
   - [Wireframes](#wireframes)
   - [Color Scheme](#color-scheme)
   - [Typography](#typography)
-  - [Media content](#imagery)
+  - [Media Content](#imagery)
   - [Accessibility](#accessibility)
 - [Features](#features)
   - [Favicon](#favicon)
@@ -28,13 +28,14 @@ You can [visit our site here.](https://barkode.github.io/bake-with-joy/)
   - [Logo](#logo)
   - [Navigation Menu](#navigation-menu)
   - [Footer](#footer)
+  - [Home Page](#home-page)
 - [Technologies and Media](#technologies-used)
 - [Deployment](#deployment)
-  - [Deployment to Github pages](#github-pages)
-  - [Fork repository](#forking-the-github-repository)
-  - [Clone repository](#making-a-local-clone)
+  - [Deployment to Github Pages](#github-pages)
+  - [Fork Repository](#forking-the-github-repository)
+  - [Clone Repository](#making-a-local-clone)
 - [Testing](#testing)
-- [Future improvements](#future-improvements)
+- [Future Improvements](#future-improvements)
 - [Credits](#credits)
 
 ## User Experience (UX)
@@ -65,7 +66,7 @@ follows:
 The design was built on the principle of simplicity. The site should be simple
 and at the same time user-friendly.
 
-- ### Website structure
+### Website structure
 
 The site consists of 5 pages. The navigation menu is available on all pages.
 
@@ -90,7 +91,7 @@ The site consists of 5 pages. The navigation menu is available on all pages.
 
 [Back to top](#content)
 
-- ### Wireframes
+### Wireframes
 
 Balsamiq was used to create the wireframes during the design process
 
@@ -100,7 +101,7 @@ Balsamiq was used to create the wireframes during the design process
 
 [Back to top](#content)
 
-- ### Color Scheme
+### Color Scheme
 
 ![Project used colors](./assets/readme-img/pallete.png)
 
@@ -109,7 +110,7 @@ The color scheme for this project used from
 
 [Back to top](#content)
 
-- ### Typography
+### Typography
 
 Geometric sans serif typefaces have always been popular, and with support for
 both the Devanagari and Latin writing systems, Poppins is an internationalist
@@ -123,7 +124,7 @@ was used for all text across the website.
 
 [Back to top](#content)
 
-- ### Imagery
+### Imagery
 
 All images were downloaded from free resources. Pictures for the site were
 downloaded from such resources as [Pixels](https://www.pexels.com/),
@@ -136,7 +137,7 @@ All image sizes were edited using [squoosh](https://squoosh.app/).
 
 [Back to top](#content)
 
-- ### Accessibility
+### Accessibility
 
 The following has been done to ensure that the website is as accessible friendly
 as possible.
@@ -149,7 +150,7 @@ as possible.
 
 ## Technologies Used
 
-- ### Languages Used
+### Languages Used
 
 - HTML5 - used to write structure and foundation of code for website.
 - CSS3 - used for styling all content and page structure on site.
@@ -159,36 +160,36 @@ as possible.
 
 ### Frameworks, Libraries & Programs Used
 
-- #### [Google fonts](https://fonts.google.com/knowledge) and [google webfonts helper](https://gwfh.mranftl.com/fonts)
+#### [Google fonts](https://fonts.google.com/knowledge) and [google webfonts helper](https://gwfh.mranftl.com/fonts)
 
 Google fonts and google webfonts helper were used to integrate the 'Poppins'
 font into the style.css file which is used on all pages throughout the project
 
-- #### [Font Awesome](https://fontawesome.com/)
+#### [Font Awesome](https://fontawesome.com/)
 
 Font Awesome was used on all pages throughout the website to add icons for
 aesthetic and UX purposes.
 
-- #### [Git](https://gitpod.io/)
+#### [Git](https://gitpod.io/)
 
 Git was used for version control by utilizing the Gitpod terminal to commit to
 Git and Push to GitHub.
 
-- #### [GitHub](https://github.com/)
+#### [GitHub](https://github.com/)
 
 GitHub is used to store the projects code after being pushed from Git.
 
-- #### [Balsamiq](https://balsamiq.com/wireframes/)
+#### [Balsamiq](https://balsamiq.com/wireframes/)
 
 Balsamiq was used to create [wireframes](#wireframes) for website.
 
-- #### [Figma](https://www.figma.com/community)
+#### [Figma](https://www.figma.com/community)
 
 Figma was used to find inspiration.
 
-- #### [Visual Studio Code](https://code.visualstudio.com/)
+#### [Visual Studio Code](https://code.visualstudio.com/)
 
-  Used Visual Studio Code as a main IDE.
+Used Visual Studio Code as a main IDE.
 
 [Back to top](#content)
 
@@ -197,7 +198,7 @@ Figma was used to find inspiration.
 The site contains 5 pages. All pages have a favicon, logo, navigation menu and
 footer.
 
-- ### Favicon
+### Favicon
 
 ![Bale's JOY Favicon image](./assets/readme-img/favicon.png)
 
@@ -205,27 +206,34 @@ An icon suitable for the subject was found on the
 [FlatIcon](https://www.flaticon.com/free-icon/croissant_786967?term=croissant&page=2&position=5&origin=search&related_id=786967)
 resource.
 
-- ### Header
+### Header
 
 ![Bale's JOY Header image](./assets/readme-img/header.png)
 
 The header has been made fixed for easy access to the navigation menu.
 
+![Bale's JOY Mobile Header image](./assets/readme-img/header_mobile.png)
+
+For small screens, the header has been changed for greater user convenience. The
+navigation menu has been hidden to allow the user to see more content on a small
+screen.
+
 [Back to top](#content)
 
-- ### Logo
+### Logo
 
 ![Bale's JOY Logo image](./assets/readme-img/logo-1.png)
 
+The logo was generated using [app-logo](https://app.logo.com/).
+
 ![Bale's JOY Logo image](./assets/readme-img/logo-2.png)
 
-The logo was generated using [app-logo](https://app.logo.com/). The logo has a
-transparent background and has been moved outside the header. This creates an
-effect as if the logo is flying.
+The logo has a transparent background and has been moved outside the header.
+This creates an effect as if the logo is flying.
 
 [Back to top](#content)
 
-- ### Navigation Menu
+### Navigation Menu
 
 ![Bale's JOY Navigation Menu image](./assets/readme-img/navmenu.png)
 
@@ -234,9 +242,18 @@ with rounded edges for the active page was used. This was done for the
 convenience of the customer. So that the client always understands which page he
 is currently on.
 
+![Bale's JOY Mobile Header image](./assets/readme-img/navmenu_mobile.png)
+
+For small screens, such as mobile phones, the navigation bar has been changed
+for greater user convenience.
+
+All links are interactive and used for the convenience of the client. If you
+type in a phone number with me, the phone will offer the client to make a call
+using the phone.
+
 [Back to top](#content)
 
-- ### Footer
+### Footer
 
 ![Bale's JOY Footer image](./assets/readme-img/footer.png)
 
@@ -246,9 +263,19 @@ with the mouse was used.
 
 [Back to top](#content)
 
+### Home page
+
+On the main page, the client can see the logo behind the slogan. Next, he can
+read information about our values. Below is a section that shows the chefs'
+names.
+
+![Desktop full screen](./assets/readme-img/desktop_full_screen.png)
+
+[Back to top](#content)
+
 ## Testing
 
-## Testing user stories
+### Testing user stories
 
 ### Further testing
 
@@ -256,48 +283,46 @@ with the mouse was used.
 
 ## Deployment
 
-- ### Github pages
+### Github pages
 
-  - This project was deployed to GitHub Pages using the following steps
+- This project was deployed to GitHub Pages using the following steps
 
-    - Log in to GitHub and locate the GitHub Repository
-    - At the top of the Repository (not top of page), locate the "Settings"
-      Button on the menu.
-    - Scroll down the Settings page until you locate the "GitHub Pages" Section.
-    - Under "Source", click the dropdown called "None" and select "Main Branch".
-    - The page will automatically refresh.
-    - Scroll back down through the page to locate the now published site link in
-      the "GitHub Pages" section.
-    - live link for the page can be found here
-      [Bake's JOY](https://barkode.github.io/bake-with-joy/)
+  - Log in to GitHub and locate the GitHub Repository
+  - At the top of the Repository (not top of page), locate the "Settings" Button
+    on the menu.
+  - Scroll down the Settings page until you locate the "GitHub Pages" Section.
+  - Under "Source", click the dropdown called "None" and select "Main Branch".
+  - The page will automatically refresh.
+  - Scroll back down through the page to locate the now published site link in
+    the "GitHub Pages" section.
+  - live link for the page can be found here
+    [Bake's JOY](https://barkode.github.io/bake-with-joy/)
 
 [Back to top](#content)
 
-- ### Forking the GitHub Repository
+### Forking the GitHub Repository
 
-  - By forking the GitHub Repository we make a copy of the original repository
-    on our GitHub account to view and/or make changes without affecting the
-    original repository by using the following steps
-  - Log in to GitHub and locate the GitHub Repository
-  - At the top of the Repository (not top of page) just above the "Settings"
-    Button on the menu, locate the "Fork" Button.
-  - You should now have a copy of the original repository in your GitHub
-    account.
+- By forking the GitHub Repository we make a copy of the original repository on
+  our GitHub account to view and/or make changes without affecting the original
+  repository by using the following steps
+- Log in to GitHub and locate the GitHub Repository
+- At the top of the Repository (not top of page) just above the "Settings"
+  Button on the menu, locate the "Fork" Button.
+- You should now have a copy of the original repository in your GitHub account.
 
 [Back to top](#content)
 
-- ### Making a Local Clone
+### Making a Local Clone
 
-  - Log in to GitHub and locate the GitHub Repository
-  - Under the repository name, click "Clone or download".
-  - To clone the repository using HTTPS, under "Clone with HTTPS", copy the
-    link.
-  - Open Git Bash
-  - Change the current working directory to the location where you want the
-    cloned directory to be made
-  - Type git clone, and then paste the URL you copied in Step 3.
-    - $ git clone <https://github.com/YOUR-USERNAME/YOUR-REPOSITORY>
-  - Press Enter. Your local clone will be created.
+- Log in to GitHub and locate the GitHub Repository
+- Under the repository name, click "Clone or download".
+- To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+- Open Git Bash
+- Change the current working directory to the location where you want the cloned
+  directory to be made
+- Type git clone, and then paste the URL you copied in Step 3.
+  - $ git clone <https://github.com/YOUR-USERNAME/YOUR-REPOSITORY>
+- Press Enter. Your local clone will be created.
 
 [Back to top](#content)
 

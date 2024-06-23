@@ -166,10 +166,11 @@ header {
 
 /* Nav toggle */
 #nav-toggle:checked ~ .header-nav {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
   height: 100vh;
-
-  overflow: hidden;
 }
 
 #nav-toggle {
@@ -195,10 +196,6 @@ header {
 /* Phone and email in mobile menu*/
 .header-nav-menu-address {
   display: block;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
   margin-top: 2rem;
 
   text-align: left;
