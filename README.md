@@ -631,6 +631,12 @@ Using more devices to determine optimal color shades.
 
 ## Future improvements
 
+- Add a recipe video gallery page.
+- Add a recipe page.
+- Add an order option to the form.
+- Add dish names to the list so customers can order what they like.
+- Add a customer testimonial series.
+
 [Back to top](#content)
 
 ## Credits
@@ -702,9 +708,11 @@ Using more devices to determine optimal color shades.
 - I want to thank my tutor [Marko Tot](https://github.com/tmarkec) for his daily
   care and help. For the desire to create a favorable atmosphere for learning
   and creativity.
-- I would like to thank my mentor, Anthony Agwe, for his helpful advice on
+- I would like to thank my mentor, Anthony Ugwu, for his helpful advice on
   writing the project.
-- I would also like to thank the entire Code Institute and Kerry College for
-  giving me the opportunity to study and participate in this project.
+- I would also like to thank the entire
+  [Code Institute](https://codeinstitute.net/ie/) and
+  [Kerry College](https://kerrycollege.ie/) for giving me the opportunity to
+  study and participate in this project.
 
 [Back to top](#content)
