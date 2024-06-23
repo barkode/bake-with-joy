@@ -62,6 +62,9 @@ follows:
 
 ## Design
 
+The design was built on the principle of simplicity. The site should be simple
+and at the same time user-friendly.
+
 - ### Website structure
 
 The site consists of 5 pages. The navigation menu is available on all pages.
@@ -106,7 +109,7 @@ The color scheme for this project used from
 
 [Back to top](#content)
 
-- #### Typography
+- ### Typography
 
 Geometric sans serif typefaces have always been popular, and with support for
 both the Devanagari and Latin writing systems, Poppins is an internationalist
@@ -120,7 +123,7 @@ was used for all text across the website.
 
 [Back to top](#content)
 
-- #### Imagery
+- ### Imagery
 
 All images were downloaded from free resources. Pictures for the site were
 downloaded from such resources as [Pixels](https://www.pexels.com/),
@@ -133,7 +136,7 @@ All image sizes were edited using [squoosh](https://squoosh.app/).
 
 [Back to top](#content)
 
-- #### Accessibility
+- ### Accessibility
 
 The following has been done to ensure that the website is as accessible friendly
 as possible.
@@ -146,7 +149,7 @@ as possible.
 
 ## Technologies Used
 
-### Languages Used
+- ### Languages Used
 
 - HTML5 - used to write structure and foundation of code for website.
 - CSS3 - used for styling all content and page structure on site.
@@ -183,6 +186,10 @@ Balsamiq was used to create [wireframes](#wireframes) for website.
 
 Figma was used to find inspiration.
 
+- #### [Visual Studio Code](https://code.visualstudio.com/)
+
+  Used Visual Studio Code as a main IDE.
+
 [Back to top](#content)
 
 ## Features
@@ -194,9 +201,15 @@ footer.
 
 ![Bale's JOY Favicon image](./assets/readme-img/favicon.png)
 
+An icon suitable for the subject was found on the
+[FlatIcon](https://www.flaticon.com/free-icon/croissant_786967?term=croissant&page=2&position=5&origin=search&related_id=786967)
+resource.
+
 - ### Header
 
 ![Bale's JOY Header image](./assets/readme-img/header.png)
+
+The header has been made fixed for easy access to the navigation menu.
 
 [Back to top](#content)
 
@@ -205,6 +218,10 @@ footer.
 ![Bale's JOY Logo image](./assets/readme-img/logo-1.png)
 
 ![Bale's JOY Logo image](./assets/readme-img/logo-2.png)
+
+The logo was generated using [app-logo](https://app.logo.com/). The logo has a
+transparent background and has been moved outside the header. This creates an
+effect as if the logo is flying.
 
 [Back to top](#content)
 
@@ -293,7 +310,7 @@ footer.
     inspired me for the Gallery page
   - credits for hover effect over images and other effects for elements goes to
     [Brandsmen](https://thebrandsmen.com/css-image-hover-effects/) and
-    [UIverse](https://uiverse.io/)
+    [UIVerse](https://uiverse.io/)
   - credits for gallery goes from
     [LogRocket](https://blog.logrocket.com/responsive-image-gallery-css-flexbox/)
 - Media
