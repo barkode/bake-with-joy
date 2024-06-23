@@ -11,19 +11,24 @@ to our institution.
 
 You can [visit our site here.](https://barkode.github.io/bake-with-joy/)
 
-<!-- ## Content
+## Content
 
-[User Experience (UX)](#user-experience-ux)
-
-- [User stories](#user-stories)
+- [User Experience](#user-experience-ux)
+  - [User Stories](#user-stories)
 - [Design](#design)
-- [Technologies Used](#technologies-used)
-  - [Languages Used](#languages-used)
-  - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
-    [Testing](#testing)
-- [Testing user stories](#testing-user-stories)
-  - [Further testing](#further-testing) [Bugs](#bugs) [Features](#features)
-    [Deployment](#deployment) [Credits](#credits) -->
+  - [Website Structure](#website-structure)
+  - [Wireframes](#wireframes)
+  - [Color Scheme](#color-scheme)
+  - [Typography](#typography)
+  - [Media content](#imagery)
+- [Features](#features)
+- [Technologies and Media](#technologies-used)
+- [Deployment, Fork and Clone](#deployment-fork-and-clone)
+  - [Deployment](#deployment)
+  - [Fork](#how-to-fork)
+  - [Clone](#how-to-clone)
+- [Testing](#testing)
+- [Acknowledgments](#acknowledgments)
 
 ## User Experience (UX)
 
@@ -46,25 +51,58 @@ follows:
 5. As a visiting user, I want to know how to contact the business if I have a
    query or if I think it can provide the service I need.
 
-### Design
+[Back to top](#content)
 
-- #### Color Scheme
+## Design
+
+- ### Website structure
+
+The site consists of 5 pages. The navigation menu is available on all pages. The
+home page presents the main idea of ​​the site. On the second page, you can see
+a gallery presenting examples of products. The third page is a page with
+contacts and a feedback form. The last two pages are service pages. One of them
+shows a message that the form has been completed, and the other reports that an
+error has occurred. The home page is the default download page. The header is
+fixed on the page, so it is available to the client at any time. The logo is
+located in the upper left corner and the navigation menu is located in the right
+corner. On devices with a small screen, this navigation menu changes to a
+drop-down menu. Also on the site there is a lower part - a footer. With its
+help, the client can go to the page of one of the social networks.
+
+[Back to top](#content)
+
+- ### Wireframes
+
+Balsamiq was used to create the wireframes during the design process
+
+![Balsamiq Desktop version](./assets/readme-img/desktop.png)
+
+![Balsamiq Mobile version](./assets/readme-img/mobile.png)
+
+[Back to top](#content)
+
+- ### Color Scheme
 
 ![Project used colors](./assets/readme-img/pallete.png)
 
 The color scheme for this project used from
 [Figma design](https://www.figma.com/design/fDlsHwelyuOVsfUmCzm3dA/%D0%A1%D1%83%D1%87%D0%B0%D1%81%D0%BD%D1%8F-%D0%BF%D0%B5%D0%BA%D0%B0%D1%80%D0%BD%D1%8F?node-id=0-1&t=X9B2jIUsiA3Fm8p6-0)
 
+[Back to top](#content)
+
 - #### Typography
 
 Geometric sans serif typefaces have always been popular, and with support for
 both the Devanagari and Latin writing systems, Poppins is an internationalist
 addition to the genre. Many of the Latin glyphs (such as the ampersand) are more
-constructed and rationalist than is typical. The font family 'Poppins' was
-downloaded and used from Google Fonts, as it provides an easy-on-the-eye font.
-This font was used for all text across the website.
+constructed and rationalist than is typical. The font family
+'[Poppins](https://gwfh.mranftl.com/fonts/poppins?subsets=latin)' was downloaded
+and used from Google Fonts, as it provides an easy-on-the-eye font. This font
+was used for all text across the website.
 
 ![Poppins font](./assets/readme-img/poppins-font.png)
+
+[Back to top](#content)
 
 - #### Imagery
 
@@ -77,13 +115,17 @@ Icons for the project were found on [FontAwesome](https://fontawesome.com/) and
 
 All image sizes were edited using [squoosh](https://squoosh.app/).
 
+[Back to top](#content)
+
 ## Technologies Used
 
 ### Languages Used
 
-- HTML5
-- CSS3
-- Git
+- HTML5 - used to write structure and foundation of code for website.
+- CSS3 - used for styling all content and page structure on site.
+- Git - used to track code changes and as a version control system.
+
+[Back to top](#content)
 
 ### Frameworks, Libraries & Programs Used
 
@@ -108,15 +150,19 @@ GitHub is used to store the projects code after being pushed from Git.
 
 - #### [Balsamiq](https://balsamiq.com/wireframes/)
 
-Balsamiq was used to create the wireframes during the design process
-
-![Balsamiq Desktop version](./assets/readme-img/desktop.png)
-
-![Balsamiq Mobile version](./assets/readme-img/mobile.png)
+Balsamiq was used to create [wireframes](#wireframes) for website.
 
 - #### [Figma](https://www.figma.com/community)
 
 Figma was used to find inspiration.
+
+[Back to top](#content)
+
+## Features
+
+- ### A favicon
+
+- ### A navigation bar
 
 ## Testing
 
@@ -125,8 +171,6 @@ Figma was used to find inspiration.
 ### Further testing
 
 ## Bugs
-
-## Features
 
 ## Deployment
 
