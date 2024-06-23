@@ -39,6 +39,11 @@ You can [visit our site here.](https://barkode.github.io/bake-with-joy/)
   - [Fork Repository](#forking-the-github-repository)
   - [Clone Repository](#making-a-local-clone)
 - [Testing](#testing)
+  - [Testing User Stories](#testing-user-stories)
+  - [HTML Validation](#html-validation)
+  - [CSS Validation](#css-validation)
+  - [Lighthouse Performance Tests](#lighthouse-performance-tests)
+  - [Manual Testing]()
 - [Future Improvements](#future-improvements)
 - [Credits](#credits)
 
@@ -319,19 +324,61 @@ of the screen.
 
 ### Contact page
 
+![Contact Page](./assets/readme-img/contact_page_desktop.png)
+
+The contact page was made in a minimalistic design. The page was made taking
+into account different screen widths.
+
+![Address on Contact Page](./assets/readme-img/contact_page_address.png)
+
+The page uses interactive elements in the address block. Which add convenience
+to using the site on mobile devices.
+
+![Open Hours on Contact Page](./assets/readme-img/contact_page_work_hours.png)
+
+Working hours were also shown on the page. They were organized in the form of a
+table.
+
+![Map on Contact Page](./assets/readme-img/contact_page_map.png)
+
+For the convenience of customers, a map was integrated into the site, which was
+created using the [Google Maps](https://www.google.ie/maps/preview) service.
+
+![Form on Contact Page](./assets/readme-img/contact_page_form.png)
+
+For the convenience of customers, a feedback form has been integrated into the
+site.
+
 [Back to top](#content)
 
 ### Error page
 
+![Error Page](./assets/readme-img/error_page_desktop.png)
+
+An error page notifies the user of an error. Also, the user can return to the
+main page or use the interactive link and call and report the error. The page is
+also made taking into account different device widths.
+
 [Back to top](#content)
 
 ### Confirmation page
+
+![Confirmation Page](./assets/readme-img/confirm_page_desktop.png)
+
+The confirmation page lets the client know that the request has been sent. The
+page is also made taking into account different device widths.
 
 [Back to top](#content)
 
 ## Testing
 
 ### Testing user stories
+
+### HTML Validation
+
+### CSS Validation
+
+### Lighthouse Performance Tests
 
 ### Further testing
 
@@ -403,6 +450,7 @@ of the screen.
     [UIVerse](https://uiverse.io/)
   - credits for gallery goes from
     [LogRocket](https://blog.logrocket.com/responsive-image-gallery-css-flexbox/)
+  - [Google Maps](https://www.google.ie/maps/)was used to show the location
 - Media
   - credit for my images across the website goes to
     [Unsplash](https://unsplash.com/) and [Pexell](https://www.pexels.com/)
