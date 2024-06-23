@@ -277,18 +277,18 @@ On the main page, the client can see the logo behind the slogan. Next, he can
 read information about our values. Below is a section that shows the chefs'
 names.
 
-- On Desktop
+- **On Desktop**
 
 ![Desktop full screen](./assets/readme-img/home_page_desktop.png)
 
 The team gallery is adaptive. And depending on the width of the screen, it can
 show 1, 2 or 4 elements per line.
 
-- On Tablet
+- **On Tablet**
 
 ![Tablet full screen](./assets/readme-img/home_page_tablet.png)
 
-- On Mobile
+- **On Mobile**
 
 ![Mobile full screen](./assets/readme-img/home_page_mobile.png)
 
@@ -303,7 +303,17 @@ the picture. Thanks to the
 portal, it was possible to make a responsive gallery that adjusts to the width
 of the screen.
 
-- On
+- **On Desktop**
+
+![Gallery Page on Desktop](./assets/readme-img/gallery_page_desktop.png)
+
+- **On Tablet**
+
+![Gallery Page on Tablet](./assets/readme-img/gallery_page_tablet.png)
+
+- **On Mobile**
+
+![Gallery Page on Mobile ](./assets/readme-img/gallery_page_mobile.png)
 
 [Back to top](#content)
 
