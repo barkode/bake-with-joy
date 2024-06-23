@@ -1,5 +1,5 @@
 /* *========== FONTS ========== */
-@import './fonts.css';
+@import './fonts.min.css';
 
 /* Override default styles added from browser */
 * {
