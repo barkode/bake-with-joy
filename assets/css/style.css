@@ -371,48 +371,27 @@ footer {
 /* *========== GALLERY =========== */
 
 .gallery {
-  height: 100%;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
 .photos {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem;
+  width: 100%;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 
   line-height: 0;
 }
 
-.photos > li {
-  position: relative;
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: auto;
-  height: 270px;
-
-  cursor: pointer;
-
-  transition: transform var(--trans-dur-and-func);
+.photos li {
+  padding-bottom: 1rem;
 }
 
-.photos li img {
+.photos img {
   width: 100%;
-  height: 100%;
-  vertical-align: middle;
-  object-fit: cover;
-
   line-height: 1em;
   border-radius: 8px;
-  object-fit: cover;
-}
-
-/* Image card hover effect */
-
-.photos > li:hover {
-  transform: scale(1.05);
-  z-index: 88;
 }
 
 /* *========== CONTACTS =========== */
@@ -472,8 +451,6 @@ footer {
   color: var(--second-color-dark);
 
   transition: all var(--trans-dur-and-func);
-  /* -moz-transition: all var(--trans-dur-and-func); */
-  /* -webkit-transition: all var(--trans-dur-and-func); */
 }
 
 .form-input:focus ~ .form-label,
@@ -870,6 +847,13 @@ footer {
     width: 264px;
     padding: 0;
   }
+
+  /* Gallery */
+
+  .photos {
+    max-width: 768px;
+    column-count: 3;
+  }
 }
 
 /* *========== 992px and up ========== */
@@ -877,10 +861,33 @@ footer {
 /* Media query: laptop and large (992px and up) */
 
 @media screen and (min-width: 992px) {
+  /* ========================== Main page */
+
   /* Footer */
 
   .footer-social-net-menu svg:hover {
     fill: var(--main-color-green);
+  }
+
+  /* ============================ Gallery */
+
+  .photos {
+    column-count: 4;
+    column-gap: 4px;
+    max-width: 100%;
+  }
+
+  .photos li {
+    padding-bottom: 4px;
+  }
+
+  .photos img {
+    transition: scale var(--trans-dur-and-func);
+  }
+
+  .photos img:hover {
+    scale: 1.1;
+    transition: scale var(--trans-dur-and-func);
   }
 
   /* ================= Contacts page */
