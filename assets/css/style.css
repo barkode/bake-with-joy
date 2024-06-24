@@ -411,12 +411,7 @@ footer {
 /* Image card hover effect */
 
 .photos > li:hover {
-  transform: scale(1.1);
-  z-index: 88;
-}
-
-.photos > li:active {
-  transform: scale(0.95) rotateZ(1.7deg);
+  transform: scale(1.05);
   z-index: 88;
 }
 
