@@ -496,7 +496,7 @@ being statically checked.
 
 - Gallery Page
 
-![Gallery Page Lighthouse]()
+![Gallery Page Lighthouse](./assets/readme-img/gallery_page_lh_desk.png)
 
 [Back to top](#content)
 
@@ -528,7 +528,7 @@ being statically checked.
 
 - Gallery Page
 
-![Gallery Page Lighthouse]()
+![Gallery Page Lighthouse](./assets/readme-img/gallery_page_lh_mobi.png)
 
 [Back to top](#content)
 
