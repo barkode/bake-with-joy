@@ -397,6 +397,45 @@ page is also made taking into account different device widths.
 
 ### Testing user stories
 
+1. As a visiting user, I want to be able to navigate this site easily.
+
+   When I go to the site, I see a clear large background image with a text
+   description of the bakery and a large hero whose idea matches the user's site
+   description In the upper left corner of the page there is a clear logo with
+   the name of the site In the same line as the logo, there is a navigation bar
+   that is easy to navigate and designed in such a way that the user never falls
+   into a trap, and also has clear links to pages that we can go to if we want.
+
+2. As a visiting user, I want to know what services are provided by this
+   business so that I can quickly determine if it may be able to meet my needs.
+
+   The website shows what the company does. The first page clearly describes the
+   goals of the company and the products it produces.
+
+3. As a visiting user, I want to know if the business has a track record of
+   providing these services.
+
+   The section with employee reviews tells the history and attitude of employees
+   to this institution.
+
+4. As a visiting user, I would like to see some examples of previous work the
+   business has done.
+
+   This requirement is fulfilled in the gallery section. Many examples of works
+   are shown. You can click on photos to open them in larger windows.
+
+5. As a visiting user, I want to know how to contact the business if I have a
+   query or if I think it can provide the service I need.
+
+   The user can always get to the contacts page from the main menu. The page
+   contains the company's phone number, email address, and address. The user can
+   also use the interactive map available on the contact page. Or click on the
+   map to open the Google Maps application. For the convenience of the user, a
+   feedback form has been added. This form allows the user to send questions or
+   greetings.
+
+[Back to top](#content)
+
 ### HTML Validation
 
 - #### Home Page
