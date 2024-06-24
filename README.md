@@ -270,7 +270,7 @@ is currently on.
 For small screens, such as mobile phones, the navigation bar has been changed
 for greater user convenience.
 
-![Mobile choose email sender](./assets/readme-img/Mobile-screen-email-phone.png)
+![Mobile choose email sender](./assets/readme-img/mobile-screen-email-phone.png)
 
 All links are interactive and used for the convenience of the client. If you
 type in a phone number with me, the phone will offer the client to make a call
@@ -317,10 +317,9 @@ show 1, 2 or 4 elements per line.
 
 The gallery page shows examples of delicious baked goods. The gallery is
 interactive. If the client likes a picture, he can download the full version of
-the picture. Thanks to the
-[LogRocket](https://blog.logrocket.com/responsive-image-gallery-css-flexbox/)
-portal, it was possible to make a responsive gallery that adjusts to the width
-of the screen.
+the picture. Thanks to the Love Running project from
+[Code Institute](https://codeinstitute.net/ie/), it was possible to make a
+responsive gallery that adjusts to the width of the screen.
 
 - **On Desktop**
 
