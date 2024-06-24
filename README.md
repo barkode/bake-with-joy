@@ -703,7 +703,8 @@ Using more devices to determine optimal color shades.
 
 - Love running project from [Code Institute](https://codeinstitute.net/ie/)
 
-  inspired me for the Gallery page
+  I was inspired by the Gallery page and some of the code for the site's gallery
+  was taken.
 
 - [UIVerse](https://uiverse.io/)
 
