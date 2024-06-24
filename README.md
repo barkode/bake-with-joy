@@ -235,7 +235,7 @@ resource.
 
 The header has been made fixed for easy access to the navigation menu.
 
-![Bale's JOY Mobile Header image](./assets/readme-img/header_mobile.png)
+![Bale's JOY Mobile Header image](./assets/readme-img/header-mobile.png)
 
 For small screens, the header has been changed for greater user convenience. The
 navigation menu has been hidden to allow the user to see more content on a small
@@ -265,12 +265,12 @@ with rounded edges for the active page was used. This was done for the
 convenience of the customer. So that the client always understands which page he
 is currently on.
 
-![Bale's JOY Mobile Header image](./assets/readme-img/navmenu_mobile.png)
+![Bale's JOY Mobile Header image](./assets/readme-img/navmenu-mobile.png)
 
 For small screens, such as mobile phones, the navigation bar has been changed
 for greater user convenience.
 
-![Mobile choose email sender](./assets/readme-img/Mobile_screen_email_phone.png)
+![Mobile choose email sender](./assets/readme-img/Mobile-screen-email-phone.png)
 
 All links are interactive and used for the convenience of the client. If you
 type in a phone number with me, the phone will offer the client to make a call
@@ -282,7 +282,7 @@ using the phone.
 
 ![Bale's JOY Footer image](./assets/readme-img/footer.png)
 
-![Bale's JOY Footer image](./assets/readme-img/footer_act.png)
+![Bale's JOY Footer image](./assets/readme-img/footer-act.png)
 
 A link to the bakery's social networks was placed in the footer. For the
 convenience of the user, the technique of highlighting the icons when pointing
@@ -298,18 +298,18 @@ names.
 
 - **On Desktop**
 
-![Desktop full screen](./assets/readme-img/home_page_desktop.png)
+![Desktop full screen](./assets/readme-img/home-page-desktop.png)
 
 The team gallery is adaptive. And depending on the width of the screen, it can
 show 1, 2 or 4 elements per line.
 
 - **On Tablet**
 
-![Tablet full screen](./assets/readme-img/home_page_tablet.png)
+![Tablet full screen](./assets/readme-img/home-page-tablet.png)
 
 - **On Mobile**
 
-![Mobile full screen](./assets/readme-img/home_page_mobile.png)
+![Mobile full screen](./assets/readme-img/home-page-mobile.png)
 
 [Back to top](#content)
 
@@ -324,59 +324,59 @@ of the screen.
 
 - **On Desktop**
 
-![Gallery Page on Desktop](./assets/readme-img/gallery_page_desktop.png)
+![Gallery Page on Desktop](./assets/readme-img/gallery-page-desktop.png)
 
 - **On Tablet**
 
-![Gallery Page on Tablet](./assets/readme-img/gallery_page_tablet.png)
+![Gallery Page on Tablet](./assets/readme-img/gallery-page-tablet.png)
 
 - **On Mobile**
 
-![Gallery Page on Mobile ](./assets/readme-img/gallery_page_mobile.png)
+![Gallery Page on Mobile ](./assets/readme-img/gallery-page-mobile.png)
 
 [Back to top](#content)
 
 ### Contact page
 
-![Contact Page](./assets/readme-img/contact_page_desktop.png)
+![Contact Page](./assets/readme-img/contact-page-desktop.png)
 
 The contact page was made in a minimalistic design. The page was made taking
 into account different screen widths.
 
-![Address on Contact Page](./assets/readme-img/contact_page_address.png)
+![Address on Contact Page](./assets/readme-img/contact-page-address.png)
 
 The page uses interactive elements in the address block. Which add convenience
 to using the site on mobile devices.
 
-![Open Hours on Contact Page](./assets/readme-img/contact_page_work_hours.png)
+![Open Hours on Contact Page](./assets/readme-img/contact-page-work-hours.png)
 
 Working hours were also shown on the page. They were organized in the form of a
 table.
 
-![Map on Contact Page](./assets/readme-img/contact_page_map.png)
+![Map on Contact Page](./assets/readme-img/contact-page-map.png)
 
 For the convenience of customers, a map was integrated into the site, which was
 created using the [Google Maps](https://www.google.ie/maps/preview) service.
 
-![Form on Contact Page](./assets/readme-img/contact_page_form.png)
+![Form on Contact Page](./assets/readme-img/contact-page-form.png)
 
 For the convenience of customers, a feedback form has been integrated into the
 site.
 
-![Submit form validation](./assets/readme-img/Form%20testing.png)
+![Submit form validation](./assets/readme-img/form-testing.png)
 
 Validation of entered data has been added to the form. The form cannot be
 submitted with empty fields. In the e-mail field, you must enter words separated
 by the @ sign. Only numbers can be entered in the phone number field. The number
 of digits is 10. The implementation and part of the code was taken from the
-[ZelL Liev](https://medium.com/free-code-camp/how-to-check-if-an-input-is-empty-with-css-1a83715f9f3e)
+[ZelL Liew](https://medium.com/free-code-camp/how-to-check-if-an-input-is-empty-with-css-1a83715f9f3e)
 article.
 
 [Back to top](#content)
 
 ### Error page
 
-![Error Page](./assets/readme-img/error_page_desktop.png)
+![Error Page](./assets/readme-img/error-page-desktop.png)
 
 An error page notifies the user of an error. Also, the user can return to the
 main page or use the interactive link and call and report the error. The page is
@@ -386,7 +386,7 @@ also made taking into account different device widths.
 
 ### Confirmation page
 
-![Confirmation Page](./assets/readme-img/confirm_page_desktop.png)
+![Confirmation Page](./assets/readme-img/confirm-page-desktop.png)
 
 The confirmation page lets the client know that the request has been sent. The
 page is also made taking into account different device widths.
@@ -401,12 +401,12 @@ page is also made taking into account different device widths.
 
 - #### Home Page
 
-![HTML Validator OK](./assets/readme-img/home_page_html_validator_ok.png)
+![HTML Validator OK](./assets/readme-img/home-page-html-validator-ok.png)
 
 The document has been verified. No errors were found. Non-critical comments were
 found.
 
-![Home Page HTML Validator Info](./assets/readme-img/home_page_http_validator_warn.png)
+![Home Page HTML Validator Info](./assets/readme-img/home-page-http-validator-warn.png)
 
 All informational messages refer to the trailing slash at the end of empty
 elements. This is a feature of the Prettier expansion.
@@ -415,12 +415,12 @@ elements. This is a feature of the Prettier expansion.
 
 - #### Gallery Page
 
-![Gallery HTML Validator Page](./assets/readme-img/gallery_page_html_validator_ok.png)
+![Gallery HTML Validator Page](./assets/readme-img/gallery-page-html-validator-ok.png)
 
 The document has been verified. No errors were found. Non-critical comments were
 found.
 
-![Gallery HTML Validator Page](./assets/readme-img/gallery_html_validator_info.png)
+![Gallery HTML Validator Page](./assets/readme-img/gallery-html-validator-info.png)
 
 All informational messages refer to the trailing slash at the end of empty
 elements. This is a feature of the Prettier expansion.
@@ -429,12 +429,12 @@ elements. This is a feature of the Prettier expansion.
 
 - #### Contact Page
 
-![Contact HTML Validator Page](./assets/readme-img/contact_page_html_validator_ok.png)
+![Contact HTML Validator Page](./assets/readme-img/contact-page-html-validator-ok.png)
 
 The document has been verified. No errors were found. Non-critical comments were
 found.
 
-![Contact HTML Validator Page](./assets/readme-img/contact_page_html_validator_ingo.png)
+![Contact HTML Validator Page](./assets/readme-img/contact-page-html-validator-ingo.png)
 
 All informational messages refer to the trailing slash at the end of empty
 elements. This is a feature of the Prettier expansion.
@@ -443,12 +443,12 @@ elements. This is a feature of the Prettier expansion.
 
 - #### Error Page
 
-![Error HTML Validator Page](./assets/readme-img/error_page_html_validation_ok.png)
+![Error HTML Validator Page](./assets/readme-img/error-page-html-validation-ok.png)
 
 The document has been verified. No errors were found. Non-critical comments were
 found.
 
-![Error HTML Validator Page](./assets/readme-img/error_page_html_validation_info.png)
+![Error HTML Validator Page](./assets/readme-img/error-page-html-validation-info.png)
 
 All informational messages refer to the trailing slash at the end of empty
 elements. This is a feature of the Prettier expansion.
@@ -457,12 +457,12 @@ elements. This is a feature of the Prettier expansion.
 
 - #### Confirmation Page
 
-![Confirmation HTML Validator Page](./assets/readme-img/confirm_page_html_validator_ok.png)
+![Confirmation HTML Validator Page](./assets/readme-img/confirm-page-html-validator-ok.png)
 
 The document has been verified. No errors were found. Non-critical comments were
 found.
 
-![Confirmation HTML Validator Page](./assets/readme-img/confirm_page_html_validator_info.png)
+![Confirmation HTML Validator Page](./assets/readme-img/confirm-page-html-validator-info.png)
 
 All informational messages refer to the trailing slash at the end of empty
 elements. This is a feature of the Prettier expansion.
@@ -490,31 +490,31 @@ being statically checked.
 
 - Home Page
 
-![Home Page Lighthouse](./assets/readme-img/home_page_lh_desk.png)
+![Home Page Lighthouse](./assets/readme-img/home-page-lh-desk.png)
 
 [Back to top](#content)
 
 - Gallery Page
 
-![Gallery Page Lighthouse](./assets/readme-img/gallery_page_lh_desk.png)
+![Gallery Page Lighthouse](./assets/readme-img/gallery-page-lh-desk.png)
 
 [Back to top](#content)
 
 - Contact Page
 
-![Contact Page Lighthouse](./assets/readme-img/contact_page_lh_desk.png)
+![Contact Page Lighthouse](./assets/readme-img/contact-page-lh-desk.png)
 
 [Back to top](#content)
 
 - Error Page
 
-![Error Page Lighthouse](./assets/readme-img/error_page_lh_desk.png)
+![Error Page Lighthouse](./assets/readme-img/error-page-lh-desk.png)
 
 [Back to top](#content)
 
 - Confirmation Page
 
-![Confirmation Page Lighthouse](./assets/readme-img/confirm_page_lh_desk.png)
+![Confirmation Page Lighthouse](./assets/readme-img/confirm-page-lh-desk.png)
 
 [Back to top](#content)
 
@@ -522,31 +522,31 @@ being statically checked.
 
 - Home Page
 
-![Home Page Lighthouse](./assets/readme-img/home_page_lh_mobi.png)
+![Home Page Lighthouse](./assets/readme-img/home-page-lh-mobi.png)
 
 [Back to top](#content)
 
 - Gallery Page
 
-![Gallery Page Lighthouse](./assets/readme-img/gallery_page_lh_mobi.png)
+![Gallery Page Lighthouse](./assets/readme-img/gallery-page-lh-mobi.png)
 
 [Back to top](#content)
 
 - Contact Page
 
-![Contact Page Lighthouse](./assets/readme-img/contact_page_lh_mobi.png)
+![Contact Page Lighthouse](./assets/readme-img/contact-page-lh-mobi.png)
 
 [Back to top](#content)
 
 - Error Page
 
-![Error Page Lighthouse](./assets/readme-img/error_page_lh_mobi.png)
+![Error Page Lighthouse](./assets/readme-img/error-page-lh-mobi.png)
 
 [Back to top](#content)
 
 - Confirmation Page
 
-![Confirmation Page Lighthouse](./assets/readme-img/confirm_page_lh_mobi.png)
+![Confirmation Page Lighthouse](./assets/readme-img/confirm-page-lh-mobi.png)
 
 [Back to top](#content)
 
@@ -565,7 +565,7 @@ done. The result of the final test is given in the table below.
 | Social media links                | Links to social networks should open externally                                 | Clicked on the social network icons at the bottom of the page | The link will open in a new tab              |
 | Opening the page with an error    | Opening the page with an error                                                  | Enter a non-existent page in the address bar                  | An error page has opened                     |
 
-![Test the form](./assets/readme-img/Form%20testing.png)
+![Test the form](./assets/readme-img/form-testing.png)
 
 [Back to top](#content)
 
