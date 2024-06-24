@@ -626,6 +626,9 @@ Using more devices to determine optimal color shades.
   beautiful effect that would fit the theme of the site.
 - During performance testing, it was found that all images needed to be reduced
   in size.
+- There are indents in the gallery. There are also empty spaces that need to be
+  filled with photos.
+- Need to fix performance on mobile devices.
 
 [Back to top](#content)
 
